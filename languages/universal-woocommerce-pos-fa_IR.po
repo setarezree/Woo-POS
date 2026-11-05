@@ -1,5 +1,5 @@
 msgid ""
-msgstr "Project-Id-Version: Universal WooCommerce POS 0.4.0\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nLanguage: fa_IR\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+msgstr "Project-Id-Version: Universal WooCommerce POS 0.5.0\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nLanguage: fa_IR\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid "/ to search · Enter to scan SKU"
 msgstr "کلید / برای جست‌وجو · Enter برای اسکن SKU"
@@ -31,11 +31,17 @@ msgstr "برای پرداخت غیرنقدی، شمارهٔ پیگیری لاز�
 msgid "Abandon unresolved preparation"
 msgstr "لغو تلاشِ نامشخصِ آماده‌سازی"
 
+msgid "Actions"
+msgstr "عملیات"
+
 msgid "Activate Universal POS separately on each site. Network activation is not supported."
 msgstr "افزونه را روی هر سایت جداگانه فعال کنید. فعال‌سازی شبکه‌ای پشتیبانی نمی‌شود."
 
 msgid "Activate WooCommerce 9.0 or later before activating Universal POS."
 msgstr "قبل از فعال‌سازی افزونه، ووکامرس نسخهٔ ۹ یا بالاتر را فعال کنید."
+
+msgid "Add internal note"
+msgstr "افزودن یادداشت داخلی"
 
 msgid "Add payment method"
 msgstr "افزودن روش پرداخت"
@@ -45,6 +51,15 @@ msgstr "افزودن {name} به سبد"
 
 msgid "Address"
 msgstr "آدرس"
+
+msgid "Adjust parent stock"
+msgstr "اصلاح موجودی محصول والد"
+
+msgid "After"
+msgstr "بعد"
+
+msgid "All"
+msgstr "همه"
 
 msgid "All products"
 msgstr "همهٔ کالاها"
@@ -57,6 +72,9 @@ msgstr "مبلغ قابل پرداخت"
 
 msgid "Apply"
 msgstr "اعمال"
+
+msgid "Apply filters"
+msgstr "اعمال فیلترها"
 
 msgid "Back to point of sale"
 msgstr "بازگشت به صندوق"
@@ -79,6 +97,15 @@ msgstr "نام سبد (اختیاری)"
 msgid "Basket saved on the server. No stock has been reserved."
 msgstr "سبد روی سرور ذخیره شد. موجودی رزرو نشده است."
 
+msgid "Before"
+msgstr "قبل"
+
+msgid "Calculate refund"
+msgstr "محاسبهٔ مبلغ مرجوعی"
+
+msgid "Cancel unpaid order"
+msgstr "لغو سفارش پرداخت‌نشده"
+
 msgid "Cancel unpaid sale"
 msgstr "لغو فروش پرداخت‌نشده"
 
@@ -93,6 +120,15 @@ msgstr "نقدی"
 
 msgid "Cashier"
 msgstr "صندوق‌دار"
+
+msgid "Change"
+msgstr "تغییر"
+
+msgid "Channel"
+msgstr "کانال فروش"
+
+msgid "Check recorded result"
+msgstr "بررسی نتیجهٔ ثبت‌شده"
 
 msgid "Check sale status"
 msgstr "بررسی وضعیت فروش"
@@ -109,8 +145,14 @@ msgstr "یک کالا انتخاب کنید یا SKU آن را اسکن کنید
 msgid "Choose a variation with all options explicitly defined. Wildcard variations are not supported yet."
 msgstr "تنوعی را انتخاب کنید که تمام گزینه‌های آن مشخص باشد. تنوع‌های دارای گزینهٔ آزاد هنوز پشتیبانی نمی‌شوند."
 
+msgid "Choose condition"
+msgstr "انتخاب وضعیت کالا"
+
 msgid "Choose options for {name}"
 msgstr "انتخاب تنوع برای {name}"
+
+msgid "Choose the condition of every returned item."
+msgstr "وضعیت هر قلم برگشتی را انتخاب کنید."
 
 msgid "City"
 msgstr "شهر"
@@ -123,6 +165,9 @@ msgstr "بسته‌شده"
 
 msgid "Completed"
 msgstr "تکمیل‌شده"
+
+msgid "Condition"
+msgstr "وضعیت کالا"
 
 msgid "Confirm payment and complete sale"
 msgstr "تأیید دریافت و ثبت نهایی فروش"
@@ -151,6 +196,15 @@ msgstr "فروش جاری"
 msgid "Customer"
 msgstr "مشتری"
 
+msgid "Damaged"
+msgstr "معیوب"
+
+msgid "Damaged goods"
+msgstr "کالای معیوب"
+
+msgid "Date (UTC)"
+msgstr "تاریخ (UTC)"
+
 msgid "Decrease quantity of {name}"
 msgstr "کاهش تعداد {name}"
 
@@ -162,6 +216,9 @@ msgstr "کاربر حذف‌شده"
 
 msgid "Discard unresolved basket save"
 msgstr "لغو ذخیرهٔ نامشخص سبد"
+
+msgid "Discard unresolved request"
+msgstr "لغو درخواست نامشخص"
 
 msgid "Discount"
 msgstr "تخفیف"
@@ -178,11 +235,20 @@ msgstr "تخفیف و مالیات هنگام بررسی فروش با محاس�
 msgid "Do not collect funds again. Check the recorded sale or retry the same request."
 msgstr "وجه را دوباره دریافت نکنید. فروش ثبت‌شده را بررسی یا همان درخواست را تکرار کنید."
 
+msgid "Download CSV for Excel"
+msgstr "دانلود CSV برای Excel"
+
+msgid "Edit return"
+msgstr "ویرایش مرجوعی"
+
 msgid "Email"
 msgstr "ایمیل"
 
 msgid "Email and address (optional)"
 msgstr "ایمیل و آدرس (اختیاری)"
+
+msgid "Enable native stock management before adjusting this product."
+msgstr "پیش از اصلاح این کالا، مدیریت موجودی ووکامرس را فعال کنید."
 
 msgid "Enter a coupon code before continuing."
 msgstr "پیش از ادامه، کد کوپن را وارد کنید."
@@ -195,6 +261,9 @@ msgstr "ایمیل معتبر وارد کنید یا این فیلد را خال
 
 msgid "Enter a valid phone number containing 7 to 15 digits."
 msgstr "شماره تلفن معتبر با ۷ تا ۱۵ رقم وارد کنید."
+
+msgid "Enter the refund tracking reference."
+msgstr "شمارهٔ پیگیری برگشت وجه را وارد کنید."
 
 msgid "Estimated product total"
 msgstr "جمع تقریبی کالاها"
@@ -214,14 +283,23 @@ msgstr "پیش از باز کردن فروش دیگر، سبد فعلی را ت�
 msgid "First name"
 msgstr "نام"
 
+msgid "From date"
+msgstr "از تاریخ"
+
 msgid "From {price}"
 msgstr "از {price}"
+
+msgid "Full remaining return"
+msgstr "مرجوعی کاملِ باقی‌مانده"
 
 msgid "Guest customer"
 msgstr "مشتری مهمان"
 
 msgid "I confirm that the full amount has actually been received."
 msgstr "تأیید می‌کنم کل مبلغ واقعاً دریافت شده است."
+
+msgid "I confirm the full quoted amount has already been returned to the customer."
+msgstr "تأیید می‌کنم تمام مبلغ محاسبه‌شده قبلاً به مشتری برگشت داده شده است."
 
 msgid "In stock"
 msgstr "موجود"
@@ -232,8 +310,14 @@ msgstr "افزایش تعداد {name}"
 msgid "Internal discount reason"
 msgstr "دلیل داخلی تخفیف"
 
+msgid "Internal notes"
+msgstr "یادداشت‌های داخلی"
+
 msgid "Invalid barcode value."
 msgstr "مقدار بارکد معتبر نیست."
+
+msgid "Inventory"
+msgstr "انبار"
 
 msgid "JavaScript is required to use the online point of sale."
 msgstr "برای استفاده از صندوق آنلاین، JavaScript باید فعال باشد."
@@ -247,6 +331,9 @@ msgstr "در حال دریافت کالاها از فروشگاه…"
 msgid "Loading…"
 msgstr "در حال بارگذاری…"
 
+msgid "Low stock"
+msgstr "رو به اتمام"
+
 msgid "Manual amount"
 msgstr "تخفیف مبلغی دستی"
 
@@ -259,6 +346,12 @@ msgstr "تخفیف درصدی دستی"
 msgid "Manual split payment"
 msgstr "پرداخت ترکیبی با تأیید دستی"
 
+msgid "Minimum stock"
+msgstr "حداقل موجودی"
+
+msgid "Minimum stock (optional)"
+msgstr "حداقل موجودی (اختیاری)"
+
 msgid "Mobile number"
 msgstr "شماره موبایل"
 
@@ -267,6 +360,9 @@ msgstr "فروش‌های اخیر من"
 
 msgid "My saved baskets"
 msgstr "سبدهای ذخیره‌شدهٔ من"
+
+msgid "Needs inspection"
+msgstr "نیازمند بررسی"
 
 msgid "Next"
 msgstr "بعدی"
@@ -286,20 +382,47 @@ msgstr "بدون نیاز به پرداخت"
 msgid "No recorded sales yet."
 msgstr "هنوز فروشی ثبت نشده است."
 
+msgid "No result is recorded yet. Retry the same request or discard it safely."
+msgstr "هنوز نتیجه‌ای ثبت نشده است؛ همان درخواست را تکرار یا آن را لغو کنید."
+
+msgid "No results."
+msgstr "نتیجه‌ای پیدا نشد."
+
 msgid "No sale has been recorded for this attempt. Check again or abandon the attempt before starting another."
 msgstr "برای این تلاش فروشی ثبت نشده است. پیش از شروع فروش تازه، دوباره بررسی کنید یا این تلاش را لغو کنید."
 
 msgid "No saved baskets."
 msgstr "سبد ذخیره‌شده‌ای وجود ندارد."
 
+msgid "Not managed"
+msgstr "مدیریت نمی‌شود"
+
+msgid "Note"
+msgstr "یادداشت"
+
+msgid "On hold"
+msgstr "در انتظار بررسی"
+
+msgid "Online"
+msgstr "آنلاین"
+
+msgid "Online and POS orders share the same WooCommerce records."
+msgstr "سفارش‌های آنلاین و حضوری از رکوردهای مشترک ووکامرس استفاده می‌کنند."
+
 msgid "Only record money already received. This does not charge a card or contact a bank."
 msgstr "فقط وجه دریافت‌شده را ثبت کنید. این کار از کارت برداشت نمی‌کند و به بانک متصل نمی‌شود."
+
+msgid "Only saleable goods return to stock. This records funds already returned; it does not call a payment gateway."
+msgstr "فقط کالای سالم و قابل فروش به موجودی برمی‌گردد. این عملیات وجهی را ثبت می‌کند که قبلاً برگشت داده‌اید؛ درگاه پرداخت فراخوانی نمی‌شود."
 
 msgid "Open receipt / print"
 msgstr "نمایش و چاپ فاکتور"
 
 msgid "Open sale"
 msgstr "باز کردن فروش"
+
+msgid "Operation"
+msgstr "نوع عملیات"
 
 msgid "Order #{number}"
 msgstr "سفارش شمارهٔ {number}"
@@ -310,8 +433,20 @@ msgstr "سفارش شمارهٔ {number} در ووکامرس ثبت شده اس�
 msgid "Order number"
 msgstr "شماره سفارش"
 
+msgid "Order number, customer or phone"
+msgstr "شمارهٔ سفارش، مشتری یا موبایل"
+
+msgid "Orders and returns"
+msgstr "سفارش‌ها و مرجوعی"
+
+msgid "Out of stock"
+msgstr "ناموجود"
+
 msgid "Overpaid: {amount}"
 msgstr "اضافه‌پرداخت: {amount}"
+
+msgid "POS"
+msgstr "حضوری"
 
 msgid "POS Cashier"
 msgstr "صندوق‌دار فروشگاه"
@@ -324,6 +459,9 @@ msgstr "برای ثبت فروش، جدول‌های مرتبط وردپرس و 
 
 msgid "Page {page} of {pages}"
 msgstr "صفحهٔ {page} از {pages}"
+
+msgid "Partial return"
+msgstr "مرجوعی جزئی"
 
 msgid "Payment and shared stock were recorded successfully."
 msgstr "پرداخت و تغییر موجودی مشترک با موفقیت ثبت شدند."
@@ -373,6 +511,9 @@ msgstr "در حال انجام"
 msgid "Product"
 msgstr "کالا"
 
+msgid "Product name"
+msgstr "نام محصول"
+
 msgid "Products"
 msgstr "کالاها"
 
@@ -400,8 +541,14 @@ msgstr "تعداد"
 msgid "Quantity of {name}"
 msgstr "تعداد {name}"
 
+msgid "Quantity or counted stock"
+msgstr "تعداد یا موجودی شمارش‌شده"
+
 msgid "Quantity: {count}"
 msgstr "تعداد: {count}"
+
+msgid "Reason"
+msgstr "دلیل"
 
 msgid "Receipt"
 msgstr "فاکتور"
@@ -409,8 +556,20 @@ msgstr "فاکتور"
 msgid "Receipt width"
 msgstr "عرض فاکتور"
 
+msgid "Record real payment before changing a paid-order status."
+msgstr "پیش از تغییر وضعیت سفارش به پرداخت‌شده، پرداخت واقعی را ثبت کنید."
+
 msgid "Record received funds"
 msgstr "ثبت وجه دریافت‌شده"
+
+msgid "Record refund"
+msgstr "ثبت مرجوعی و برگشت وجه"
+
+msgid "Record stock adjustment"
+msgstr "ثبت تغییر موجودی"
+
+msgid "Recorded refunds"
+msgstr "مرجوعی‌های ثبت‌شده"
 
 msgid "Recording payment…"
 msgstr "در حال ثبت پرداخت…"
@@ -421,8 +580,26 @@ msgstr "به‌روزرسانی فهرست"
 msgid "Refresh stock"
 msgstr "به‌روزرسانی موجودی"
 
+msgid "Refund amount"
+msgstr "مبلغ برگشت وجه"
+
+msgid "Refund method"
+msgstr "روش برگشت وجه"
+
 msgid "Refunded"
 msgstr "بازپرداخت‌شده"
+
+msgid "Refunded amount"
+msgstr "مبلغ مرجوع‌شده"
+
+msgid "Refunded quantity"
+msgstr "تعداد مرجوع‌شده"
+
+msgid "Refunds require a paid order and matching store currency precision."
+msgstr "مرجوعی به سفارش پرداخت‌شده و تطابق ارز و دقت اعشار فروشگاه نیاز دارد."
+
+msgid "Remaining quantity"
+msgstr "تعداد باقی‌مانده"
 
 msgid "Remaining: {amount}"
 msgstr "باقیمانده: {amount}"
@@ -448,8 +625,29 @@ msgstr "بازیابی"
 msgid "Restore an unpaid sale or reprint a receipt. Only your sales are listed."
 msgstr "فروش پرداخت‌نشده را بازیابی یا فاکتور را دوباره چاپ کنید. فقط فروش‌های خودتان نمایش داده می‌شوند."
 
+msgid "Results"
+msgstr "نتایج"
+
+msgid "Results pages"
+msgstr "صفحه‌های نتایج"
+
 msgid "Retry the same request"
 msgstr "تکرار همان درخواست"
+
+msgid "Return goods and record refunded funds"
+msgstr "مرجوعی کالا و ثبت وجه برگشت‌داده‌شده"
+
+msgid "Return quantity"
+msgstr "تعداد برگشتی"
+
+msgid "Return reason"
+msgstr "دلیل مرجوعی"
+
+msgid "Return to stock"
+msgstr "بازگشت به موجودی"
+
+msgid "Return type"
+msgstr "نوع مرجوعی"
 
 msgid "Review sale and reserve stock"
 msgstr "بررسی فروش و رزرو موجودی"
@@ -457,8 +655,17 @@ msgstr "بررسی فروش و رزرو موجودی"
 msgid "Review the recorded sale before confirming any funds."
 msgstr "پیش از تأیید دریافت وجه، فروش ثبت‌شده را بازبینی کنید."
 
+msgid "Review the required fields and enter valid values."
+msgstr "فیلدهای الزامی را بررسی و مقدارهای معتبر وارد کنید."
+
+msgid "SKU"
+msgstr "شناسهٔ SKU"
+
 msgid "Sale totals"
 msgstr "جمع سفارش"
+
+msgid "Saleable"
+msgstr "سالم و قابل فروش"
 
 msgid "Sales receipt"
 msgstr "فاکتور فروش"
@@ -493,6 +700,12 @@ msgstr "شناسهٔ امن درخواست در دسترس نیست. از مرو
 msgid "Send a JSON object as the request body."
 msgstr "بدنهٔ درخواست را به‌صورت یک شیء JSON ارسال کنید."
 
+msgid "Set stock"
+msgstr "تعیین موجودی نهایی"
+
+msgid "Shared stock owner"
+msgstr "محصولِ مرجع موجودی مشترک"
+
 msgid "Sign out"
 msgstr "خروج"
 
@@ -513,6 +726,33 @@ msgstr "استان / ایالت"
 
 msgid "Status"
 msgstr "وضعیت"
+
+msgid "Stock"
+msgstr "موجودی"
+
+msgid "Stock cannot be negative or less than current WooCommerce reservations."
+msgstr "موجودی نمی‌تواند منفی یا کمتر از رزروهای فعلی ووکامرس باشد."
+
+msgid "Stock changed. Refresh the product and review your adjustment."
+msgstr "موجودی تغییر کرده است؛ کالا را تازه‌سازی و اصلاح موجودی را دوباره بررسی کنید."
+
+msgid "Stock history"
+msgstr "گردش موجودی"
+
+msgid "Stock is shared with WooCommerce. Record the real reason for each adjustment."
+msgstr "موجودی با ووکامرس مشترک است؛ دلیل واقعی هر تغییر را ثبت کنید."
+
+msgid "Stock receipt"
+msgstr "ورود کالا"
+
+msgid "Stock receipts add quantity; damage and waste subtract it. Set stock and stocktake use the final counted quantity."
+msgstr "ورود کالا تعداد را افزایش می‌دهد؛ معیوب و ضایعات آن را کم می‌کنند. تعیین موجودی و انبارگردانی، مقدار نهایی شمارش‌شده را ثبت می‌کنند."
+
+msgid "Stock status"
+msgstr "وضعیت موجودی"
+
+msgid "Stocktake"
+msgstr "انبارگردانی"
 
 msgid "Subtotal"
 msgstr "جمع کالاها"
@@ -547,8 +787,35 @@ msgstr "تخفیف دستی نباید از جمع کالاها بیشتر با�
 msgid "The operation could not be completed. Check the sale and retry with the same idempotency key."
 msgstr "عملیات تکمیل نشد. وضعیت فروش را بررسی و درخواست را با همان کلید یکتا تکرار کنید."
 
+msgid "The operation failed."
+msgstr "عملیات انجام نشد."
+
+msgid "The operation failed. Check its recorded result before retrying the same request."
+msgstr "عملیات انجام نشد؛ پیش از تکرار همان درخواست، نتیجهٔ ثبت‌شده را بررسی کنید."
+
+msgid "The operation was recorded successfully."
+msgstr "عملیات با موفقیت ثبت شد."
+
+msgid "The order changed. Refresh its details before continuing."
+msgstr "سفارش تغییر کرده است؛ پیش از ادامه، جزئیات را تازه‌سازی کنید."
+
 msgid "The order total or currency has changed. Review the sale before confirming payment."
 msgstr "مبلغ یا ارز سفارش تغییر کرده است. پیش از تأیید پرداخت، فروش را بازبینی کنید."
+
+msgid "The original stock reduction cannot support this restock. Review the order stock history."
+msgstr "کاهش موجودی اولیه برای این بازگشت کافی نیست؛ گردش موجودی سفارش را بررسی کنید."
+
+msgid "The recorded refund was removed externally. Review the order before proceeding."
+msgstr "رکورد مرجوعی از ابزار دیگری حذف شده است؛ پیش از ادامه، سفارش را بررسی کنید."
+
+msgid "The recorded result was recovered. Do not return funds again."
+msgstr "نتیجهٔ ثبت‌شده بازیابی شد؛ وجه را دوباره برگشت ندهید."
+
+msgid "The refund no longer matches the remaining order balance. Refresh the order."
+msgstr "مبلغ مرجوعی دیگر با ماندهٔ سفارش تطابق ندارد؛ سفارش را تازه‌سازی کنید."
+
+msgid "The refund quote changed. Review a fresh quote before returning funds."
+msgstr "مبلغ یا اقلام مرجوعی تغییر کرده‌اند؛ پیش از برگشت وجه، محاسبهٔ جدید را بررسی کنید."
 
 msgid "The request contains unsupported fields. Prices and totals are calculated by the server."
 msgstr "درخواست شامل فیلدهای پشتیبانی‌نشده است. قیمت و مبلغ نهایی در سرور محاسبه می‌شوند."
@@ -556,11 +823,17 @@ msgstr "درخواست شامل فیلدهای پشتیبانی‌نشده اس�
 msgid "The requested item was not found."
 msgstr "مورد درخواستی پیدا نشد."
 
+msgid "The requested quantity has already been returned or exceeds the order."
+msgstr "تعداد درخواستی قبلاً مرجوع شده یا از تعداد سفارش بیشتر است."
+
 msgid "The requested quantity is not currently available. Refresh stock before continuing."
 msgstr "این تعداد در حال حاضر موجود نیست. پیش از ادامه موجودی را به‌روز کنید."
 
 msgid "The response timed out. Check the recorded sale before trying again."
 msgstr "مهلت دریافت پاسخ تمام شد. پیش از تلاش دوباره، فروش ثبت‌شده را بررسی کنید."
+
+msgid "The result is unknown. Check the recorded operation before repeating funds or stock changes."
+msgstr "نتیجه نامشخص است؛ پیش از تکرار برگشت وجه یا تغییر موجودی، عملیات ثبت‌شده را بررسی کنید."
 
 msgid "The sale request has invalid fields or values."
 msgstr "فیلدها یا مقدارهای درخواست فروش معتبر نیستند."
@@ -589,6 +862,9 @@ msgstr "جمع پرداخت‌ها باید دقیقاً با مبلغ محاس�
 msgid "The unpaid sale was cancelled and its stock reservation released."
 msgstr "فروش پرداخت‌نشده لغو و رزرو موجودی آن آزاد شد."
 
+msgid "The unresolved request was discarded."
+msgstr "درخواست نامشخص لغو شد."
+
 msgid "There is not enough unreserved stock to complete this sale."
 msgstr "موجودی رزرو‌نشدهٔ کافی برای تکمیل این فروش وجود ندارد."
 
@@ -616,14 +892,23 @@ msgstr "این مبلغ تقریبی است. قیمت نهایی و مالیات
 msgid "This manual payment method is not enabled."
 msgstr "این روش پرداخت دستی فعال نیست."
 
+msgid "This request key was already used with different details."
+msgstr "این کلید درخواست قبلاً با جزئیات دیگری استفاده شده است."
+
 msgid "This sale is being processed. Retry with the same idempotency key."
 msgstr "این فروش در حال پردازش است. درخواست را با همان کلید یکتا تکرار کنید."
 
 msgid "This sale is closed"
 msgstr "این فروش بسته شده است"
 
+msgid "To date"
+msgstr "تا تاریخ"
+
 msgid "Total"
 msgstr "جمع"
+
+msgid "Total after refunds"
+msgstr "مبلغ پس از مرجوعی"
 
 msgid "Total received"
 msgstr "جمع مبلغ دریافت‌شده"
@@ -649,14 +934,32 @@ msgstr "برای اجرای افزونه، ووکامرس نسخهٔ ۹ یا ب�
 msgid "Unpaid"
 msgstr "پرداخت‌نشده"
 
+msgid "Update order status"
+msgstr "ثبت وضعیت سفارش"
+
 msgid "Use a barcode of up to 64 ASCII letters, digits or . _ : + / - characters."
 msgstr "بارکد باید حداکثر ۶۴ حرف لاتین، رقم یا نویسه‌های . _ : + / - باشد."
 
 msgid "Use unique product IDs and integer quantities from 1 to 1000."
 msgstr "شناسه‌های محصول باید بدون تکرار و تعداد هر محصول عدد صحیح از ۱ تا ۱۰۰۰ باشد."
 
+msgid "Variations"
+msgstr "تنوع‌ها"
+
+msgid "View"
+msgstr "مشاهده"
+
+msgid "View and print receipt"
+msgstr "مشاهده و چاپ فاکتور"
+
+msgid "Waste"
+msgstr "ضایعات"
+
 msgid "WooCommerce coupon"
 msgstr "کوپن ووکامرس"
+
+msgid "WooCommerce order receipt. Refunds are shown separately."
+msgstr "فاکتور سفارش ووکامرس؛ مرجوعی‌ها جداگانه نمایش داده می‌شوند."
 
 msgid "Workspace"
 msgstr "محیط کار"
@@ -678,6 +981,69 @@ msgstr "فروش بعدی از اینجا شروع می‌شود."
 
 msgid "Your session has expired. Sign in again, then check the sale before retrying."
 msgstr "نشست شما منقضی شده است. دوباره وارد شوید و پیش از تلاش مجدد، وضعیت فروش را بررسی کنید."
+
+msgid "adjustment"
+msgstr "اصلاح موجودی"
+
+msgid "bank_transfer"
+msgstr "انتقال بانکی"
+
+msgid "cancelled"
+msgstr "لغوشده"
+
+msgid "card_terminal"
+msgstr "کارت‌خوان"
+
+msgid "cash"
+msgstr "نقدی"
+
+msgid "completed"
+msgstr "تکمیل‌شده"
+
+msgid "damage"
+msgstr "کالای معیوب"
+
+msgid "failed"
+msgstr "ناموفق"
+
+msgid "on-hold"
+msgstr "در انتظار بررسی"
+
+msgid "online_sale"
+msgstr "فروش آنلاین"
+
+msgid "opening_stock"
+msgstr "موجودی اولیه"
+
+msgid "order_cancelled"
+msgstr "لغو سفارش"
+
+msgid "pending"
+msgstr "در انتظار پرداخت"
+
+msgid "pos_sale"
+msgstr "فروش حضوری"
+
+msgid "processing"
+msgstr "در حال انجام"
+
+msgid "receipt"
+msgstr "ورود کالا"
+
+msgid "refund_restock"
+msgstr "بازگشت مرجوعی به موجودی"
+
+msgid "refunded"
+msgstr "مرجوع‌شده"
+
+msgid "stock_update"
+msgstr "تغییر موجودی ووکامرس"
+
+msgid "stocktake"
+msgstr "انبارگردانی"
+
+msgid "waste"
+msgstr "ضایعات"
 
 msgid "{count} in stock"
 msgstr "موجودی: {count}"

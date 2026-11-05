@@ -59,6 +59,11 @@ if ( 'create' === $mode ) {
 	$state['barcode'] = '000055550001';
 	$coupon = new WC_Coupon(); $coupon->set_code( 'ui-coupon-' . wp_generate_uuid4() ); $coupon->set_discount_type( 'percent' ); $coupon->set_amount( '10' ); $state['coupons'][] = $coupon->save(); $state['coupon'] = $coupon->get_code();
 	$save();
+	$mg = new WC_Product_Simple(); $mg->set_name( 'کالای آزمون انبار' ); $mg->set_sku( 'UI-MANAGEMENT' ); $mg->set_regular_price( '120.00' ); $mg->set_manage_stock( true ); $mg->set_stock_quantity( 40 ); $mg->save(); $state['products'][] = $mg->get_id(); $state['management_product'] = $mg->get_id(); $save();
+	$state['management_orders'] = array();
+	foreach ( array( true, false ) as $paid ) {
+		$o = wc_create_order(); $state['management_orders'][] = $o->get_id(); $save(); $o->set_billing_first_name( 'مشتری' ); $o->set_billing_last_name( 'آزمون مرجوعی' ); $o->set_billing_phone( '09123334455' ); $o->set_payment_method( 'cod' ); $o->set_payment_method_title( 'دریافت آزمون ووکامرس' ); $o->add_product( wc_get_product( $mg->get_id() ), $paid ? 3 : 1 ); $o->calculate_totals(); $o->save(); if ( $paid ) { $o->payment_complete(); }
+	}
 	$state['baseUrl'] = home_url( '/' ); $state['hpos'] = get_option( 'woocommerce_custom_orders_table_enabled', 'no' ); $save();
 	echo "Real WooCommerce browser fixtures created.\n"; exit;
 }
@@ -66,16 +71,18 @@ if ( 'create' === $mode ) {
 if ( 'cleanup' !== $mode ) { throw new RuntimeException( 'Unknown fixture operation.' ); }
 foreach ( $state['users'] as $user ) {
 	$ids = $wpdb->get_col( $wpdb->prepare( 'SELECT order_id FROM %i WHERE created_by = %d AND order_id > 0', Schema::table( 'sale_requests' ), $user['id'] ) );
+	if ( $user['id'] === ( $state['users']['manager']['id'] ?? 0 ) ) { $ids = array_merge( $ids, $state['management_orders'] ?? array() ); }
 	foreach ( array_unique( $ids ) as $id ) {
 		as_unschedule_all_actions( 'upos_expire_sale', array( 'order_id' => (int) $id ), 'universal-pos' );
-		$order = wc_get_order( $id ); if ( $order ) { ( new ReserveStock() )->release_stock_for_order( $order ); $order->delete( true ); }
+		$order = wc_get_order( $id ); if ( $order ) { ( new ReserveStock() )->release_stock_for_order( $order ); foreach ( $order->get_refunds() as $refund ) { $refund->delete( true ); } $order->delete( true ); }
 		foreach ( array( 'payment_lines', 'financial_transactions', 'stock_movements', 'audit_logs' ) as $table ) { $wpdb->delete( Schema::table( $table ), array( 'order_id' => $id ) ); }
 	}
 	$wpdb->delete( Schema::table( 'sale_requests' ), array( 'created_by' => $user['id'] ) );
+	$wpdb->delete( Schema::table( 'operation_requests' ), array( 'created_by' => $user['id'] ) );
 	$wpdb->delete( Schema::table( 'parked_carts' ), array( 'created_by' => $user['id'] ) );
 }
 foreach ( $state['coupons'] ?? array() as $id ) { ( new WC_Coupon( $id ) )->delete( true ); }
-foreach ( array_reverse( $state['products'] ) as $id ) { $product = wc_get_product( $id ); if ( $product ) { $product->delete( true ); } }
+foreach ( array_reverse( $state['products'] ) as $id ) { $product = wc_get_product( $id ); if ( $product ) { $product->delete( true ); } $wpdb->delete( Schema::table( 'stock_movements' ), array( 'product_id' => $id ) ); $wpdb->delete( Schema::table( 'stock_movements' ), array( 'variation_id' => $id ) ); $wpdb->delete( Schema::table( 'audit_logs' ), array( 'object_type' => 'product', 'object_id' => $id ) ); }
 require_once ABSPATH . 'wp-admin/includes/user.php';
 foreach ( $state['users'] as $user ) { wp_delete_user( $user['id'] ); }
 foreach ( $state['options'] as $name => $value ) { null === $value ? delete_option( $name ) : update_option( $name, $value ); }

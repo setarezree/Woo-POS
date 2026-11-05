@@ -93,7 +93,7 @@ final class SaleService {
 			};
 			add_action( 'woocommerce_reduce_order_item_stock', $listener, 10, 3 );
 			try {
-				if ( ! $order->payment_complete() || ! $order->is_paid() ) {
+				if ( ! \StarZarei\UniversalPOS\Inventory\Ledger::silence( static fn() => $order->payment_complete() ) || ! $order->is_paid() ) {
 					throw new \RuntimeException( 'WooCommerce did not complete the payment.' );
 				}
 			} finally {

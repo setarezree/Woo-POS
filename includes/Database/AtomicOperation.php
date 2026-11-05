@@ -12,6 +12,7 @@ final class AtomicOperation {
 		global $wpdb;
 		$resources = array_unique( (array) $resource ); sort( $resources, SORT_STRING ); $locks = array();
 		$started = false;
+		$guard = null;
 		$committed = false;
 		$emails = new DeferredEmails();
 		try {
@@ -33,7 +34,28 @@ final class AtomicOperation {
 				throw new \RuntimeException( 'Cannot start database transaction.' );
 			}
 			$started = true;
+			$failure = null;
+			// wpdb filters before clearing last_error. Stop even when native code ignores
+			// a failed query: an InnoDB deadlock may already have aborted the transaction.
+			$guard = static function ( $sql ) use ( $wpdb, &$failure ) {
+				if ( null !== $failure ) { throw $failure; }
+				if ( $wpdb->last_error ) {
+					$number = $wpdb->dbh instanceof \mysqli ? mysqli_errno( $wpdb->dbh ) : 0;
+					$failure = in_array( $number, array( 1205, 1213 ), true )
+						? new SaleException( 'upos_busy', __( 'This sale is being processed. Retry with the same idempotency key.', 'universal-woocommerce-pos' ), 409 )
+						: new \RuntimeException( 'Cannot continue after a database query failure.' );
+					throw $failure;
+				}
+				if ( is_string( $sql ) && preg_match( '/^\s*(?:START\s+TRANSACTION|BEGIN\b|COMMIT\b|ROLLBACK\b|SET\s+(?:SESSION\s+)?AUTOCOMMIT\b|(?:CREATE|ALTER|DROP|TRUNCATE|RENAME)\s|(?:UN)?LOCK\s+TABLES)/i', $sql ) ) {
+					$failure = new \RuntimeException( 'A nested transaction or implicit commit is not permitted.' ); throw $failure;
+				}
+				return $sql;
+			};
+			add_filter( 'query', $guard, PHP_INT_MIN );
+			add_filter( 'query', $guard, PHP_INT_MAX );
 			$result = $callback();
+			$guard( '' );
+			remove_filter( 'query', $guard, PHP_INT_MIN ); remove_filter( 'query', $guard, PHP_INT_MAX ); $guard = null;
 			if ( false === $wpdb->query( 'COMMIT' ) ) {
 				throw new \RuntimeException( 'Cannot commit POS database transaction.' );
 			}
@@ -41,6 +63,7 @@ final class AtomicOperation {
 			$committed = true;
 			return $result;
 		} catch ( \Throwable $error ) {
+			if ( null !== $guard ) { remove_filter( 'query', $guard, PHP_INT_MIN ); remove_filter( 'query', $guard, PHP_INT_MAX ); $guard = null; }
 			if ( $started ) {
 				$wpdb->query( 'ROLLBACK' );
 				// Rollback does not revert WordPress/WooCommerce in-memory or persistent caches.
@@ -59,6 +82,7 @@ final class AtomicOperation {
 		$names = array( 'posts', 'postmeta', 'comments', 'commentmeta', 'options', 'users', 'usermeta',
 			'woocommerce_order_items', 'woocommerce_order_itemmeta', 'wc_product_meta_lookup',
 			'wc_orders', 'wc_order_addresses', 'wc_order_operational_data', 'wc_orders_meta',
+			'wc_reserved_stock', 'woocommerce_downloadable_product_permissions', 'wc_download_log',
 			'wc_order_stats', 'wc_order_product_lookup', 'wc_order_tax_lookup', 'wc_order_coupon_lookup', 'wc_customer_lookup',
 			'actionscheduler_actions', 'actionscheduler_claims', 'actionscheduler_groups', 'actionscheduler_logs' );
 		$names = array_map( fn( $name ) => $wpdb->prefix . $name, $names );

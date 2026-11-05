@@ -20,9 +20,9 @@ Online operation only. Native WordPress authentication, capabilities and REST no
 
 ## Capabilities and Constraints
 
-Version 0.4.0 already provides real pending orders, native WooCommerce stock reservations, server-calculated totals, explicitly confirmed manual split payments, cancellation/expiry, idempotency and financial/audit records. The cashier interface and receipts use that service. Version 0.4.0 extends the existing POS with coupons, permissioned discounts, barcodes and saved baskets.
+Version 0.5.0 provides real pending orders, native WooCommerce stock reservations, server-calculated totals, explicitly confirmed manual split payments, cancellation/expiry, idempotency and financial/audit records. The cashier interface and receipts use that service. Version 0.4.0 extends the existing POS with coupons, permissioned discounts, barcodes and saved baskets.
 
-The user's required development order is: core/database/WooCommerce; POS and real sales; inventory/orders/refunds; customers/cash/finance; dashboards/reports/final validation. The current work completes the planned supplementary POS features in the second stage; later modules must not be brought forward.
+The user's required development order is: core/database/WooCommerce; POS and real sales; inventory/orders/refunds; customers/cash/finance; dashboards/reports/final validation. The current work implements stage three: shared inventory movements, general order administration and native full/partial returns. Customer CRM, cash administration and reports remain later stages.
 
 ## Brand Commitments
 
@@ -43,4 +43,6 @@ README.md, docs/pos-api.md, existing PHP services and the user's original projec
 
 Keyboard and touch operation, visible focus, explicit form labels, announced errors, RTL/LTR support, responsive composition and reduced-motion support.
 
-Current POS capabilities include native WooCommerce coupons, capability-gated amount/percent discounts with required reasons, dedicated product/variation barcodes, and owner-only seven-day server-saved baskets. Parked baskets hold IDs, quantities and customer/discount intent, never product prices or stock reservations; restoring resolves live WooCommerce data. Stage 3 remains inventory, general orders and refunds; customer CRM belongs to stage 4.
+Current POS capabilities include native WooCommerce coupons, capability-gated amount/percent discounts with required reasons, dedicated product/variation barcodes, and owner-only seven-day server-saved baskets. Parked baskets hold IDs, quantities and customer/discount intent, never product prices or stock reservations; restoring resolves live WooCommerce data. Stage 3 now adds inventory, general orders and native returns; customer CRM and cash administration remain stage 4.
+
+Stage-three management uses native WordPress admin submenus, forms, buttons and tables, preserving that host interface rather than rebranding it with cashier styles. Refunds record confirmed funds already returned; they never invoke a payment gateway. Only saleable returns restock, via native WooCommerce. The cashier DESIGN.md remains authoritative only for cashier/receipt surfaces.

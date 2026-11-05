@@ -7,7 +7,7 @@ final class Capabilities {
 	public const ALL = array(
 		'upos_access_pos', 'upos_create_sales', 'upos_view_customers',
 		'upos_view_orders', 'upos_view_inventory', 'upos_add_products',
-		'upos_edit_products', 'upos_change_prices', 'upos_apply_discounts',
+		'upos_edit_products', 'upos_adjust_stock', 'upos_change_prices', 'upos_apply_discounts',
 		'upos_refund_orders', 'upos_record_expenses', 'upos_view_transactions',
 		'upos_view_reports', 'upos_manage_users', 'upos_manage_settings',
 	);

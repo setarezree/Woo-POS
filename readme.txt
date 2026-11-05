@@ -4,7 +4,7 @@ Tags: woocommerce, pos, inventory
 Requires at least: 6.7
 Requires PHP: 8.1
 Requires Plugins: woocommerce
-Stable tag: 0.4.0
+Stable tag: 0.5.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,8 @@ Lifecycle, versioned database schema, cashier capabilities, authenticated sales
 and payment REST endpoints, stock reservations and HPOS-compatible order CRUD.
 WooCommerce remains the only source of products, prices, orders and stock.
 Responsive Persian/English cashier UI and protected thermal receipts are included.
+Native-admin inventory history/adjustments and condition-aware manual refunds
+use the same authoritative WooCommerce records.
 No offline operation, shifts or terminal/gateway integration is included.
 Manual payments require explicit confirmation of funds already received.
 
@@ -36,6 +38,11 @@ basket, review the server total and explicitly confirm funds received.
 Thermal receipt layouts support 58mm and 80mm rolls. See docs/cashier-guide.md.
 
 == Changelog ==
+= 0.5.0 =
+Native-admin inventory adjustments/history, protected CSV export, general order
+administration and native full/partial refunds with condition-aware restocking.
+Actor-scoped idempotent recovery, refund ledger/audit and native stock observers.
+
 = 0.4.0 =
 Native WooCommerce coupons, permissioned manual discounts with required reasons,
 unique product/variation barcodes and owner-only server-saved seven-day baskets.

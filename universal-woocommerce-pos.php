@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Universal WooCommerce POS & Store Manager
  * Description: Online POS sales and manually confirmed split payments for WooCommerce.
- * Version: 0.4.0
+ * Version: 0.5.0
  * Author: ستاره زارعی
  * Text Domain: universal-woocommerce-pos
  * Domain Path: /languages
@@ -15,7 +15,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'UPOS_VERSION', '0.4.0' );
+define( 'UPOS_VERSION', '0.5.0' );
 define( 'UPOS_FILE', __FILE__ );
 define( 'UPOS_PATH', plugin_dir_path( __FILE__ ) );
 

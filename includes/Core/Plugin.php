@@ -49,7 +49,7 @@ final class Plugin {
 			} );
 			return;
 		}
-		$modules = apply_filters( 'upos_modules', array( new SalesChannel(), new StoreController(), new SalesController(), new Expiry(), new App(), new ParkedCarts(), new Barcode() ) );
+		$modules = apply_filters( 'upos_modules', array( new \StarZarei\UniversalPOS\Inventory\Ledger(), new \StarZarei\UniversalPOS\API\ManagementController(), new \StarZarei\UniversalPOS\Admin\Management(), new SalesChannel(), new StoreController(), new SalesController(), new Expiry(), new App(), new ParkedCarts(), new Barcode() ) );
 		foreach ( $modules as $module ) {
 			if ( $module instanceof Module ) {
 				$module->register();

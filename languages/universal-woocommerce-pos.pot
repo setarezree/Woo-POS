@@ -1,5 +1,5 @@
 msgid ""
-msgstr "Project-Id-Version: Universal WooCommerce POS 0.4.0\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+msgstr "Project-Id-Version: Universal WooCommerce POS 0.5.0\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
 
 msgid "/ to search · Enter to scan SKU"
 msgstr ""
@@ -31,10 +31,16 @@ msgstr ""
 msgid "Abandon unresolved preparation"
 msgstr ""
 
+msgid "Actions"
+msgstr ""
+
 msgid "Activate Universal POS separately on each site. Network activation is not supported."
 msgstr ""
 
 msgid "Activate WooCommerce 9.0 or later before activating Universal POS."
+msgstr ""
+
+msgid "Add internal note"
 msgstr ""
 
 msgid "Add payment method"
@@ -44,6 +50,15 @@ msgid "Add {name} to basket"
 msgstr ""
 
 msgid "Address"
+msgstr ""
+
+msgid "Adjust parent stock"
+msgstr ""
+
+msgid "After"
+msgstr ""
+
+msgid "All"
 msgstr ""
 
 msgid "All products"
@@ -56,6 +71,9 @@ msgid "Amount due"
 msgstr ""
 
 msgid "Apply"
+msgstr ""
+
+msgid "Apply filters"
 msgstr ""
 
 msgid "Back to point of sale"
@@ -79,6 +97,15 @@ msgstr ""
 msgid "Basket saved on the server. No stock has been reserved."
 msgstr ""
 
+msgid "Before"
+msgstr ""
+
+msgid "Calculate refund"
+msgstr ""
+
+msgid "Cancel unpaid order"
+msgstr ""
+
 msgid "Cancel unpaid sale"
 msgstr ""
 
@@ -92,6 +119,15 @@ msgid "Cash"
 msgstr ""
 
 msgid "Cashier"
+msgstr ""
+
+msgid "Change"
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "Check recorded result"
 msgstr ""
 
 msgid "Check sale status"
@@ -109,7 +145,13 @@ msgstr ""
 msgid "Choose a variation with all options explicitly defined. Wildcard variations are not supported yet."
 msgstr ""
 
+msgid "Choose condition"
+msgstr ""
+
 msgid "Choose options for {name}"
+msgstr ""
+
+msgid "Choose the condition of every returned item."
 msgstr ""
 
 msgid "City"
@@ -122,6 +164,9 @@ msgid "Closed"
 msgstr ""
 
 msgid "Completed"
+msgstr ""
+
+msgid "Condition"
 msgstr ""
 
 msgid "Confirm payment and complete sale"
@@ -151,6 +196,15 @@ msgstr ""
 msgid "Customer"
 msgstr ""
 
+msgid "Damaged"
+msgstr ""
+
+msgid "Damaged goods"
+msgstr ""
+
+msgid "Date (UTC)"
+msgstr ""
+
 msgid "Decrease quantity of {name}"
 msgstr ""
 
@@ -161,6 +215,9 @@ msgid "Deleted user"
 msgstr ""
 
 msgid "Discard unresolved basket save"
+msgstr ""
+
+msgid "Discard unresolved request"
 msgstr ""
 
 msgid "Discount"
@@ -178,10 +235,19 @@ msgstr ""
 msgid "Do not collect funds again. Check the recorded sale or retry the same request."
 msgstr ""
 
+msgid "Download CSV for Excel"
+msgstr ""
+
+msgid "Edit return"
+msgstr ""
+
 msgid "Email"
 msgstr ""
 
 msgid "Email and address (optional)"
+msgstr ""
+
+msgid "Enable native stock management before adjusting this product."
 msgstr ""
 
 msgid "Enter a coupon code before continuing."
@@ -194,6 +260,9 @@ msgid "Enter a valid email address or leave it empty."
 msgstr ""
 
 msgid "Enter a valid phone number containing 7 to 15 digits."
+msgstr ""
+
+msgid "Enter the refund tracking reference."
 msgstr ""
 
 msgid "Estimated product total"
@@ -214,13 +283,22 @@ msgstr ""
 msgid "First name"
 msgstr ""
 
+msgid "From date"
+msgstr ""
+
 msgid "From {price}"
+msgstr ""
+
+msgid "Full remaining return"
 msgstr ""
 
 msgid "Guest customer"
 msgstr ""
 
 msgid "I confirm that the full amount has actually been received."
+msgstr ""
+
+msgid "I confirm the full quoted amount has already been returned to the customer."
 msgstr ""
 
 msgid "In stock"
@@ -232,7 +310,13 @@ msgstr ""
 msgid "Internal discount reason"
 msgstr ""
 
+msgid "Internal notes"
+msgstr ""
+
 msgid "Invalid barcode value."
+msgstr ""
+
+msgid "Inventory"
 msgstr ""
 
 msgid "JavaScript is required to use the online point of sale."
@@ -247,6 +331,9 @@ msgstr ""
 msgid "Loading…"
 msgstr ""
 
+msgid "Low stock"
+msgstr ""
+
 msgid "Manual amount"
 msgstr ""
 
@@ -259,6 +346,12 @@ msgstr ""
 msgid "Manual split payment"
 msgstr ""
 
+msgid "Minimum stock"
+msgstr ""
+
+msgid "Minimum stock (optional)"
+msgstr ""
+
 msgid "Mobile number"
 msgstr ""
 
@@ -266,6 +359,9 @@ msgid "My recent sales"
 msgstr ""
 
 msgid "My saved baskets"
+msgstr ""
+
+msgid "Needs inspection"
 msgstr ""
 
 msgid "Next"
@@ -286,19 +382,46 @@ msgstr ""
 msgid "No recorded sales yet."
 msgstr ""
 
+msgid "No result is recorded yet. Retry the same request or discard it safely."
+msgstr ""
+
+msgid "No results."
+msgstr ""
+
 msgid "No sale has been recorded for this attempt. Check again or abandon the attempt before starting another."
 msgstr ""
 
 msgid "No saved baskets."
 msgstr ""
 
+msgid "Not managed"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgid "On hold"
+msgstr ""
+
+msgid "Online"
+msgstr ""
+
+msgid "Online and POS orders share the same WooCommerce records."
+msgstr ""
+
 msgid "Only record money already received. This does not charge a card or contact a bank."
+msgstr ""
+
+msgid "Only saleable goods return to stock. This records funds already returned; it does not call a payment gateway."
 msgstr ""
 
 msgid "Open receipt / print"
 msgstr ""
 
 msgid "Open sale"
+msgstr ""
+
+msgid "Operation"
 msgstr ""
 
 msgid "Order #{number}"
@@ -310,7 +433,19 @@ msgstr ""
 msgid "Order number"
 msgstr ""
 
+msgid "Order number, customer or phone"
+msgstr ""
+
+msgid "Orders and returns"
+msgstr ""
+
+msgid "Out of stock"
+msgstr ""
+
 msgid "Overpaid: {amount}"
+msgstr ""
+
+msgid "POS"
 msgstr ""
 
 msgid "POS Cashier"
@@ -323,6 +458,9 @@ msgid "POS requires InnoDB for its WordPress and WooCommerce tables."
 msgstr ""
 
 msgid "Page {page} of {pages}"
+msgstr ""
+
+msgid "Partial return"
 msgstr ""
 
 msgid "Payment and shared stock were recorded successfully."
@@ -373,6 +511,9 @@ msgstr ""
 msgid "Product"
 msgstr ""
 
+msgid "Product name"
+msgstr ""
+
 msgid "Products"
 msgstr ""
 
@@ -400,7 +541,13 @@ msgstr ""
 msgid "Quantity of {name}"
 msgstr ""
 
+msgid "Quantity or counted stock"
+msgstr ""
+
 msgid "Quantity: {count}"
+msgstr ""
+
+msgid "Reason"
 msgstr ""
 
 msgid "Receipt"
@@ -409,7 +556,19 @@ msgstr ""
 msgid "Receipt width"
 msgstr ""
 
+msgid "Record real payment before changing a paid-order status."
+msgstr ""
+
 msgid "Record received funds"
+msgstr ""
+
+msgid "Record refund"
+msgstr ""
+
+msgid "Record stock adjustment"
+msgstr ""
+
+msgid "Recorded refunds"
 msgstr ""
 
 msgid "Recording payment…"
@@ -421,7 +580,25 @@ msgstr ""
 msgid "Refresh stock"
 msgstr ""
 
+msgid "Refund amount"
+msgstr ""
+
+msgid "Refund method"
+msgstr ""
+
 msgid "Refunded"
+msgstr ""
+
+msgid "Refunded amount"
+msgstr ""
+
+msgid "Refunded quantity"
+msgstr ""
+
+msgid "Refunds require a paid order and matching store currency precision."
+msgstr ""
+
+msgid "Remaining quantity"
 msgstr ""
 
 msgid "Remaining: {amount}"
@@ -448,7 +625,28 @@ msgstr ""
 msgid "Restore an unpaid sale or reprint a receipt. Only your sales are listed."
 msgstr ""
 
+msgid "Results"
+msgstr ""
+
+msgid "Results pages"
+msgstr ""
+
 msgid "Retry the same request"
+msgstr ""
+
+msgid "Return goods and record refunded funds"
+msgstr ""
+
+msgid "Return quantity"
+msgstr ""
+
+msgid "Return reason"
+msgstr ""
+
+msgid "Return to stock"
+msgstr ""
+
+msgid "Return type"
 msgstr ""
 
 msgid "Review sale and reserve stock"
@@ -457,7 +655,16 @@ msgstr ""
 msgid "Review the recorded sale before confirming any funds."
 msgstr ""
 
+msgid "Review the required fields and enter valid values."
+msgstr ""
+
+msgid "SKU"
+msgstr ""
+
 msgid "Sale totals"
+msgstr ""
+
+msgid "Saleable"
 msgstr ""
 
 msgid "Sales receipt"
@@ -493,6 +700,12 @@ msgstr ""
 msgid "Send a JSON object as the request body."
 msgstr ""
 
+msgid "Set stock"
+msgstr ""
+
+msgid "Shared stock owner"
+msgstr ""
+
 msgid "Sign out"
 msgstr ""
 
@@ -512,6 +725,33 @@ msgid "State / province"
 msgstr ""
 
 msgid "Status"
+msgstr ""
+
+msgid "Stock"
+msgstr ""
+
+msgid "Stock cannot be negative or less than current WooCommerce reservations."
+msgstr ""
+
+msgid "Stock changed. Refresh the product and review your adjustment."
+msgstr ""
+
+msgid "Stock history"
+msgstr ""
+
+msgid "Stock is shared with WooCommerce. Record the real reason for each adjustment."
+msgstr ""
+
+msgid "Stock receipt"
+msgstr ""
+
+msgid "Stock receipts add quantity; damage and waste subtract it. Set stock and stocktake use the final counted quantity."
+msgstr ""
+
+msgid "Stock status"
+msgstr ""
+
+msgid "Stocktake"
 msgstr ""
 
 msgid "Subtotal"
@@ -547,7 +787,34 @@ msgstr ""
 msgid "The operation could not be completed. Check the sale and retry with the same idempotency key."
 msgstr ""
 
+msgid "The operation failed."
+msgstr ""
+
+msgid "The operation failed. Check its recorded result before retrying the same request."
+msgstr ""
+
+msgid "The operation was recorded successfully."
+msgstr ""
+
+msgid "The order changed. Refresh its details before continuing."
+msgstr ""
+
 msgid "The order total or currency has changed. Review the sale before confirming payment."
+msgstr ""
+
+msgid "The original stock reduction cannot support this restock. Review the order stock history."
+msgstr ""
+
+msgid "The recorded refund was removed externally. Review the order before proceeding."
+msgstr ""
+
+msgid "The recorded result was recovered. Do not return funds again."
+msgstr ""
+
+msgid "The refund no longer matches the remaining order balance. Refresh the order."
+msgstr ""
+
+msgid "The refund quote changed. Review a fresh quote before returning funds."
 msgstr ""
 
 msgid "The request contains unsupported fields. Prices and totals are calculated by the server."
@@ -556,10 +823,16 @@ msgstr ""
 msgid "The requested item was not found."
 msgstr ""
 
+msgid "The requested quantity has already been returned or exceeds the order."
+msgstr ""
+
 msgid "The requested quantity is not currently available. Refresh stock before continuing."
 msgstr ""
 
 msgid "The response timed out. Check the recorded sale before trying again."
+msgstr ""
+
+msgid "The result is unknown. Check the recorded operation before repeating funds or stock changes."
 msgstr ""
 
 msgid "The sale request has invalid fields or values."
@@ -589,6 +862,9 @@ msgstr ""
 msgid "The unpaid sale was cancelled and its stock reservation released."
 msgstr ""
 
+msgid "The unresolved request was discarded."
+msgstr ""
+
 msgid "There is not enough unreserved stock to complete this sale."
 msgstr ""
 
@@ -616,13 +892,22 @@ msgstr ""
 msgid "This manual payment method is not enabled."
 msgstr ""
 
+msgid "This request key was already used with different details."
+msgstr ""
+
 msgid "This sale is being processed. Retry with the same idempotency key."
 msgstr ""
 
 msgid "This sale is closed"
 msgstr ""
 
+msgid "To date"
+msgstr ""
+
 msgid "Total"
+msgstr ""
+
+msgid "Total after refunds"
 msgstr ""
 
 msgid "Total received"
@@ -649,13 +934,31 @@ msgstr ""
 msgid "Unpaid"
 msgstr ""
 
+msgid "Update order status"
+msgstr ""
+
 msgid "Use a barcode of up to 64 ASCII letters, digits or . _ : + / - characters."
 msgstr ""
 
 msgid "Use unique product IDs and integer quantities from 1 to 1000."
 msgstr ""
 
+msgid "Variations"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "View and print receipt"
+msgstr ""
+
+msgid "Waste"
+msgstr ""
+
 msgid "WooCommerce coupon"
+msgstr ""
+
+msgid "WooCommerce order receipt. Refunds are shown separately."
 msgstr ""
 
 msgid "Workspace"
@@ -677,6 +980,69 @@ msgid "Your next sale starts here."
 msgstr ""
 
 msgid "Your session has expired. Sign in again, then check the sale before retrying."
+msgstr ""
+
+msgid "adjustment"
+msgstr ""
+
+msgid "bank_transfer"
+msgstr ""
+
+msgid "cancelled"
+msgstr ""
+
+msgid "card_terminal"
+msgstr ""
+
+msgid "cash"
+msgstr ""
+
+msgid "completed"
+msgstr ""
+
+msgid "damage"
+msgstr ""
+
+msgid "failed"
+msgstr ""
+
+msgid "on-hold"
+msgstr ""
+
+msgid "online_sale"
+msgstr ""
+
+msgid "opening_stock"
+msgstr ""
+
+msgid "order_cancelled"
+msgstr ""
+
+msgid "pending"
+msgstr ""
+
+msgid "pos_sale"
+msgstr ""
+
+msgid "processing"
+msgstr ""
+
+msgid "receipt"
+msgstr ""
+
+msgid "refund_restock"
+msgstr ""
+
+msgid "refunded"
+msgstr ""
+
+msgid "stock_update"
+msgstr ""
+
+msgid "stocktake"
+msgstr ""
+
+msgid "waste"
 msgstr ""
 
 msgid "{count} in stock"

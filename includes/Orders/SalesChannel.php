@@ -15,6 +15,9 @@ final class SalesChannel implements Module {
 	}
 
 	public function set_default( $order ): void {
+		if ( $order instanceof \WC_Order && 0 === $order->get_id() && '' === $order->get_meta( '_upos_price_decimals', true ) ) {
+			$order->update_meta_data( '_upos_price_decimals', wc_get_price_decimals() );
+		}
 		if ( $order instanceof \WC_Order && ! $order->get_meta( self::META_KEY, true ) ) {
 			$order->update_meta_data( self::META_KEY, 'online' );
 		}

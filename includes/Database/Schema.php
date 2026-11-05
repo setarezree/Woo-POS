@@ -4,8 +4,8 @@ namespace StarZarei\UniversalPOS\Database;
 defined( 'ABSPATH' ) || exit;
 
 final class Schema {
-	public const VERSION = '3';
-	public const TABLES = array( 'payment_lines', 'financial_transactions', 'stock_movements', 'audit_logs', 'cash_registers', 'sale_requests', 'parked_carts' );
+	public const VERSION = '4';
+	public const TABLES = array( 'payment_lines', 'financial_transactions', 'stock_movements', 'audit_logs', 'cash_registers', 'sale_requests', 'parked_carts', 'operation_requests' );
 
 	public static function table( string $name ): string {
 		global $wpdb;
@@ -21,6 +21,14 @@ final class Schema {
 		$charset = $wpdb->get_charset_collate();
 		// Logical references only: WooCommerce owns product/order storage, including HPOS.
 		$definitions = array(
+			'operation_requests' => "request_key varchar(64) NOT NULL,
+				payload_hash varchar(64) NOT NULL,
+				kind varchar(64) NOT NULL,
+				result_ids longtext NOT NULL,
+				created_by bigint(20) unsigned NOT NULL,
+				created_at datetime NOT NULL,
+				PRIMARY KEY  (request_key),
+				KEY actor_date (created_by,created_at)",
 			'parked_carts' => "key_hash varchar(64) NOT NULL,
 				cart_key varchar(128) NOT NULL,
 				request_hash varchar(64) NOT NULL,
@@ -68,7 +76,8 @@ final class Schema {
 				KEY order_id (order_id),
 				KEY register_date (register_id,created_at),
 				KEY cashier_date (created_by,created_at)",
-			'financial_transactions' => "id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+			'financial_transactions' => "refund_id bigint(20) unsigned DEFAULT NULL,
+				id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
 				idempotency_key varchar(64) NOT NULL,
 				type varchar(40) NOT NULL,
 				amount decimal(26,8) NOT NULL,
