@@ -1,0 +1,5 @@
+/dist/*
+!/dist/universal-woocommerce-pos.zip
+/vendor/
+.phpunit.result.cache
+/.impeccable/review/

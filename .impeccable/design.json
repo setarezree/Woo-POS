@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-05T16:43:57.114944Z",
+  "title": "Design System: Universal WooCommerce POS & Store Manager",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Dark ink",
+        "canonical": "#172b35",
+        "tonalRamp": [
+          "oklch(15.00% 0.03182 231.23)",
+          "oklch(26.43% 0.03182 231.23)",
+          "oklch(37.86% 0.03182 231.23)",
+          "oklch(49.29% 0.03182 231.23)",
+          "oklch(60.71% 0.03182 231.23)",
+          "oklch(72.14% 0.03182 231.23)",
+          "oklch(83.57% 0.03182 231.23)",
+          "oklch(95.00% 0.03182 231.23)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "#546773",
+        "tonalRamp": [
+          "oklch(15.00% 0.02987 235.91)",
+          "oklch(26.43% 0.02987 235.91)",
+          "oklch(37.86% 0.02987 235.91)",
+          "oklch(49.29% 0.02987 235.91)",
+          "oklch(60.71% 0.02987 235.91)",
+          "oklch(72.14% 0.02987 235.91)",
+          "oklch(83.57% 0.02987 235.91)",
+          "oklch(95.00% 0.02987 235.91)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Soft canvas",
+        "canonical": "#f3f5f4",
+        "tonalRamp": [
+          "oklch(15.00% 0.00250 165.08)",
+          "oklch(26.43% 0.00250 165.08)",
+          "oklch(37.86% 0.00250 165.08)",
+          "oklch(49.29% 0.00250 165.08)",
+          "oklch(60.71% 0.00250 165.08)",
+          "oklch(72.14% 0.00250 165.08)",
+          "oklch(83.57% 0.00250 165.08)",
+          "oklch(95.00% 0.00250 165.08)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#fff",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "subtle": {
+        "role": "neutral",
+        "displayName": "Pale green",
+        "canonical": "#eaf0ed",
+        "tonalRamp": [
+          "oklch(15.00% 0.00751 164.93)",
+          "oklch(26.43% 0.00751 164.93)",
+          "oklch(37.86% 0.00751 164.93)",
+          "oklch(49.29% 0.00751 164.93)",
+          "oklch(60.71% 0.00751 164.93)",
+          "oklch(72.14% 0.00751 164.93)",
+          "oklch(83.57% 0.00751 164.93)",
+          "oklch(95.00% 0.00751 164.93)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Quiet border",
+        "canonical": "#d6dfda",
+        "tonalRamp": [
+          "oklch(15.00% 0.01179 162.02)",
+          "oklch(26.43% 0.01179 162.02)",
+          "oklch(37.86% 0.01179 162.02)",
+          "oklch(49.29% 0.01179 162.02)",
+          "oklch(60.71% 0.01179 162.02)",
+          "oklch(72.14% 0.01179 162.02)",
+          "oklch(83.57% 0.01179 162.02)",
+          "oklch(95.00% 0.01179 162.02)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Deep teal",
+        "canonical": "#17695b",
+        "tonalRamp": [
+          "oklch(15.00% 0.07873 178.35)",
+          "oklch(26.43% 0.07873 178.35)",
+          "oklch(37.86% 0.07873 178.35)",
+          "oklch(49.29% 0.07873 178.35)",
+          "oklch(60.71% 0.07873 178.35)",
+          "oklch(72.14% 0.07873 178.35)",
+          "oklch(83.57% 0.07873 178.35)",
+          "oklch(95.00% 0.07873 178.35)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Deep teal hover",
+        "canonical": "#105345",
+        "tonalRamp": [
+          "oklch(15.00% 0.06855 175.01)",
+          "oklch(26.43% 0.06855 175.01)",
+          "oklch(37.86% 0.06855 175.01)",
+          "oklch(49.29% 0.06855 175.01)",
+          "oklch(60.71% 0.06855 175.01)",
+          "oklch(72.14% 0.06855 175.01)",
+          "oklch(83.57% 0.06855 175.01)",
+          "oklch(95.00% 0.06855 175.01)"
+        ]
+      },
+      "error": {
+        "role": "semantic",
+        "displayName": "Error red",
+        "canonical": "#a92e35",
+        "tonalRamp": [
+          "oklch(15.00% 0.15893 22.28)",
+          "oklch(26.43% 0.15893 22.28)",
+          "oklch(37.86% 0.15893 22.28)",
+          "oklch(49.29% 0.15893 22.28)",
+          "oklch(60.71% 0.15893 22.28)",
+          "oklch(72.14% 0.15893 22.28)",
+          "oklch(83.57% 0.15893 22.28)",
+          "oklch(95.00% 0.15893 22.28)"
+        ]
+      },
+      "focus": {
+        "role": "semantic",
+        "displayName": "Keyboard focus blue",
+        "canonical": "#146c94",
+        "tonalRamp": [
+          "oklch(15.00% 0.09947 234.69)",
+          "oklch(26.43% 0.09947 234.69)",
+          "oklch(37.86% 0.09947 234.69)",
+          "oklch(49.29% 0.09947 234.69)",
+          "oklch(60.71% 0.09947 234.69)",
+          "oklch(72.14% 0.09947 234.69)",
+          "oklch(83.57% 0.09947 234.69)",
+          "oklch(95.00% 0.09947 234.69)"
+        ]
+      },
+      "selection": {
+        "role": "neutral",
+        "displayName": "Pale selection",
+        "canonical": "#c6e7dc",
+        "tonalRamp": [
+          "oklch(15.00% 0.03769 173.31)",
+          "oklch(26.43% 0.03769 173.31)",
+          "oklch(37.86% 0.03769 173.31)",
+          "oklch(49.29% 0.03769 173.31)",
+          "oklch(60.71% 0.03769 173.31)",
+          "oklch(72.14% 0.03769 173.31)",
+          "oklch(83.57% 0.03769 173.31)",
+          "oklch(95.00% 0.03769 173.31)"
+        ]
+      },
+      "error-surface": {
+        "role": "semantic",
+        "displayName": "Error surface",
+        "canonical": "#fff3f1",
+        "tonalRamp": [
+          "oklch(15.00% 0.01325 28.86)",
+          "oklch(26.43% 0.01325 28.86)",
+          "oklch(37.86% 0.01325 28.86)",
+          "oklch(49.29% 0.01325 28.86)",
+          "oklch(60.71% 0.01325 28.86)",
+          "oklch(72.14% 0.01325 28.86)",
+          "oklch(83.57% 0.01325 28.86)",
+          "oklch(95.00% 0.01325 28.86)"
+        ]
+      },
+      "error-line": {
+        "role": "semantic",
+        "displayName": "Error border",
+        "canonical": "#edc9c7",
+        "tonalRamp": [
+          "oklch(15.00% 0.04099 21.73)",
+          "oklch(26.43% 0.04099 21.73)",
+          "oklch(37.86% 0.04099 21.73)",
+          "oklch(49.29% 0.04099 21.73)",
+          "oklch(60.71% 0.04099 21.73)",
+          "oklch(72.14% 0.04099 21.73)",
+          "oklch(83.57% 0.04099 21.73)",
+          "oklch(95.00% 0.04099 21.73)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "body": {
+        "displayName": "Body",
+        "purpose": "Application root text; individual components set their own line heights."
+      },
+      "title": {
+        "displayName": "Workspace title",
+        "purpose": "Products and Basket headings."
+      },
+      "store-title": {
+        "displayName": "Store identity",
+        "purpose": "Actual store name; .98rem on mobile."
+      },
+      "section-title": {
+        "displayName": "Section title",
+        "purpose": "Customer, payment and result headings."
+      },
+      "label": {
+        "displayName": "Field label",
+        "purpose": "Explicit form labels."
+      },
+      "product-name": {
+        "displayName": "Product name",
+        "purpose": "Wrapping live catalog names; .85rem on mobile."
+      },
+      "receipt-body": {
+        "displayName": "Receipt body",
+        "purpose": "Thermal receipt text; 11px on 58mm paper."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "control-state",
+        "value": "background-color .16s ease, color .16s ease",
+        "purpose": "Button and secondary-link color transitions; disabled for reduced motion."
+      },
+      {
+        "name": "cart-feedback",
+        "value": ".35s ease-out",
+        "purpose": "Basket count background fades from #c6e7dc to transparent; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "min-width:1500px"
+      },
+      {
+        "name": "sticky-order",
+        "value": "min-width:1100px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "max-width:1099px"
+      },
+      {
+        "name": "mobile-workspace",
+        "value": "max-width:760px"
+      },
+      {
+        "name": "receipt-toolbar-compact",
+        "value": "max-width:400px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Current cashier action styling.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Review sale and reserve stock</button>",
+      "css": ".ds-primary{font-family:Tahoma,\"Segoe UI\",sans-serif;font-size:15px;min-height:46px;border-radius:8px;padding:11px 17px;font-weight:600;line-height:1.5;text-align:center;cursor:pointer;transition:background-color .16s ease,color .16s ease;background:var(--accent,#17695b);color:var(--surface,#fff);border:1px solid transparent}.ds-primary:hover:not(:disabled){background:var(--accent-hover,#105345)}.ds-primary:focus-visible{outline:3px solid var(--focus,#146c94);outline-offset:3px;}.ds-primary:active:not(:disabled){filter:brightness(.96)}.ds-primary:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Current cashier action styling.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Search</button>",
+      "css": ".ds-secondary{font-family:Tahoma,\"Segoe UI\",sans-serif;font-size:15px;min-height:46px;border-radius:8px;padding:11px 17px;font-weight:600;line-height:1.5;text-align:center;cursor:pointer;transition:background-color .16s ease,color .16s ease;background:var(--surface,#fff);color:var(--ink,#172b35);border:1px solid var(--line,#d6dfda)}.ds-secondary:hover:not(:disabled){background:var(--subtle,#eaf0ed)}.ds-secondary:focus-visible{outline:3px solid var(--focus,#146c94);outline-offset:3px;}.ds-secondary:active:not(:disabled){filter:brightness(.96)}.ds-secondary:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}}"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Low-emphasis action; danger uses error text.",
+      "html": "<button class=\"ds-text\" type=\"button\">Refresh stock</button>",
+      "css": ".ds-text{font-family:Tahoma,\"Segoe UI\",sans-serif;font-size:15px;border:0;min-height:44px;padding:8px;color:var(--accent,#17695b);background:transparent;font-size:.87rem;font-weight:600;cursor:pointer;transition:background-color .16s ease,color .16s ease}.ds-text:hover:not(:disabled){background:var(--subtle,#eaf0ed);border-radius:6px}.ds-text:focus-visible{outline:3px solid var(--focus,#146c94);outline-offset:3px;}.ds-text:active:not(:disabled){filter:brightness(.96)}.ds-text:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-text{transition:none}}"
+    },
+    {
+      "name": "Labeled field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Explicit label and native field.",
+      "html": "<label class=\"ds-label\">First name<input class=\"ds-input\" autocomplete=\"given-name\"></label>",
+      "css": ".ds-label{font-family:Tahoma,\"Segoe UI\",sans-serif;font-size:15px;display:grid;gap:8px;font-size:.87rem;font-weight:600;line-height:1.5;color:var(--ink,#172b35)}.ds-input{font:inherit;width:100%;min-height:44px;border:1px solid var(--line,#d6dfda);border-radius:8px;padding:10px 12px;color:var(--ink,#172b35);background:var(--surface,#fff);caret-color:var(--accent,#17695b)}.ds-input:focus-visible{outline:3px solid var(--focus,#146c94);outline-offset:3px;}.ds-input:disabled{background:var(--canvas,#f3f5f4)}"
+    },
+    {
+      "name": "Mobile workspace navigation",
+      "kind": "nav",
+      "refersTo": "mobile-tab",
+      "description": "Actual mobile selection, expressed with pressed state and underline.",
+      "html": "<nav class=\"ds-tabs\" aria-label=\"Workspace\"><button class=\"ds-tab ds-selected\" aria-pressed=\"true\">Products</button><button class=\"ds-tab\" aria-pressed=\"false\">Basket <span>0</span></button></nav>",
+      "css": ".ds-tabs{display:flex;background:var(--surface,#fff);border-bottom:1px solid var(--line,#d6dfda)}.ds-tab{font-family:Tahoma,\"Segoe UI\",sans-serif;font-size:15px;width:50%;min-height:52px;border:0;border-bottom:2px solid transparent;background:var(--surface,#fff);color:var(--muted,#546773);font-weight:600;cursor:pointer}.ds-tab.ds-selected{color:var(--accent,#17695b);border-bottom-color:var(--accent,#17695b)}.ds-tab span{display:inline-flex;justify-content:center;min-width:24px;margin-inline-start:5px;font-variant-numeric:tabular-nums}.ds-tab:focus-visible{outline:3px solid var(--focus,#146c94);outline-offset:3px;}.ds-tab:active{filter:brightness(.96)}"
+    },
+    {
+      "name": "Product tile",
+      "kind": "card",
+      "refersTo": "product-card",
+      "description": "Catalog action with descriptive stock and price; placeholders are preview labels.",
+      "html": "<button class=\"ds-product\" aria-label=\"Add product to basket\" aria-describedby=\"ds-stock ds-price\"><span class=\"ds-image\">AB</span><span class=\"ds-info\"><span class=\"ds-name\">Product name</span><span class=\"ds-sku\">SKU</span><span id=\"ds-stock\" class=\"ds-stock\">In stock</span><span class=\"ds-bottom\"><span id=\"ds-price\">Catalog price</span><span class=\"ds-add\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"><path d=\"M12 5v14M5 12h14\"/></svg></span></span></span></button>",
+      "css": ".ds-product{font-family:Tahoma,\"Segoe UI\",sans-serif;font-size:15px;width:220px;display:flex;flex-direction:column;align-items:stretch;text-align:start;padding:0;border:1px solid var(--line,#d6dfda);border-radius:var(--radius,12px);background:var(--surface,#fff);color:var(--ink,#172b35);overflow:hidden;cursor:pointer;transition:background-color .16s ease,color .16s ease}.ds-product:hover:not(:disabled){border-color:var(--accent,#17695b);background:#fbfdfb}.ds-product:focus-visible{outline:3px solid var(--focus,#146c94);outline-offset:3px;}.ds-product:active:not(:disabled){filter:brightness(.96)}.ds-product:disabled{opacity:.7;cursor:not-allowed}.ds-image{height:140px;display:grid;place-items:center;background:#edf1ed;font-size:2.2rem;color:#63786c}.ds-info{padding:14px;display:flex;flex-direction:column;gap:9px}.ds-name{font-size:.91rem;font-weight:600;line-height:1.9;overflow-wrap:anywhere}.ds-sku,.ds-stock{font-size:.72rem;color:var(--muted,#546773)}.ds-stock{color:var(--accent,#17695b)}.ds-bottom{display:flex;justify-content:space-between;align-items:center;gap:8px;padding-top:5px;font-size:.9rem;font-weight:600;line-height:1.8;font-variant-numeric:tabular-nums}.ds-add{width:30px;height:30px;border-radius:6px;background:var(--subtle,#eaf0ed);display:grid;place-items:center;color:var(--accent,#17695b)}.ds-add svg{width:17px;height:17px}@media(prefers-reduced-motion:reduce){.ds-product{transition:none}}"
+    },
+    {
+      "name": "Quantity group",
+      "kind": "custom",
+      "refersTo": "quantity",
+      "description": "Bordered numeric control embedded in an order line.",
+      "html": "<div class=\"ds-quantity\"><button aria-label=\"Decrease quantity\">−</button><input type=\"number\" value=\"1\" min=\"1\" aria-label=\"Quantity\"><button aria-label=\"Increase quantity\">+</button></div>",
+      "css": ".ds-quantity{font-family:Tahoma,\"Segoe UI\",sans-serif;font-size:15px;display:inline-flex;align-items:center;border:1px solid var(--line,#d6dfda);border-radius:6px;overflow:hidden}.ds-quantity button{width:40px;min-height:44px;background:var(--surface,#fff);border:0;font-size:1.1rem;color:var(--ink,#172b35);cursor:pointer}.ds-quantity button:hover:not(:disabled){background:var(--subtle,#eaf0ed)}.ds-quantity input{font:inherit;width:44px;min-height:44px;border:0;text-align:center;padding:4px;border-radius:0;color:var(--ink,#172b35);background:var(--surface,#fff);font-variant-numeric:tabular-nums;appearance:textfield}.ds-quantity input::-webkit-inner-spin-button{appearance:none}.ds-quantity button:focus-visible,.ds-quantity input:focus-visible{outline:3px solid var(--focus,#146c94);outline-offset:3px;}.ds-quantity button:active:not(:disabled){filter:brightness(.96)}.ds-quantity button:disabled{opacity:.48;cursor:not-allowed}"
+    },
+    {
+      "name": "Inline notice",
+      "kind": "custom",
+      "refersTo": "notice",
+      "description": "Wrapping inline feedback; actual error variant included.",
+      "html": "<div class=\"ds-notice\" role=\"status\">Connection restored. Refresh stock or check the sale status before continuing.</div>",
+      "css": ".ds-notice{font-family:Tahoma,\"Segoe UI\",sans-serif;font-size:15px;margin-block:0 18px;padding:14px 16px;border:1px solid var(--line,#d6dfda);border-radius:8px;background:var(--subtle,#eaf0ed);color:var(--ink,#172b35);line-height:1.9;font-size:.83rem;overflow-wrap:anywhere}.ds-notice.ds-error{color:var(--error,#a92e35);background:#fff3f1;border-color:#edc9c7}.ds-notice:focus-visible{outline:3px solid var(--focus,#146c94);outline-offset:3px;}"
+    }
+  ],
+  "narrative": {
+    "overview": "The cashier interface follows the original minimal, professional brief: light, low-glare surfaces, dark ink and a restrained deep teal for primary actions and selected controls. It is an operational surface layered on the existing WooCommerce POS backend. Its density supports repeated product selection and verification of funds actually received.\n\nPersian RTL and English LTR share the same visual system. Store identity, catalog photographs, names, stock and money come from the actual store. The current scope is the cashier and thermal receipt; dashboards and later management modules have no implemented design system here. No user-approved creative metaphor or store-specific identity has been established.",
+    "keyCharacteristics": [
+      "Light surfaces, quiet borders and a single primary action color.",
+      "Compact, readable typography with tabular financial figures.",
+      "A catalog beside an order workspace on desktop, with two workspace tabs on mobile.",
+      "Visible preparation, payment, recovery and completion states."
+    ],
+    "rules": [
+      {
+        "name": "The Action Color Rule",
+        "body": "Use the primary accent to identify actionable and selected states; communicate financial state in text as well as color.",
+        "section": "colors"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Preserve tonal separation and borders as the depth vocabulary of the current cashier surface.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the minimal professional character, logical alignment and shared RTL/LTR system.",
+      "**Do** use real store/catalog information and let names, notices and references wrap.",
+      "**Do** keep stock, estimates, final totals and received-funds status explicit in text.",
+      "**Do** retain visible keyboard focus, mobile-visible feedback and reduced-motion behavior.",
+      "**Do** use separators and tonal fills to organize the cashier workspace."
+    ],
+    "donts": [
+      "**Don't** introduce decorative metrics, charts or dashboard framing into this operational surface.",
+      "**Don't** hide uncertain payment outcomes or imply that recording funds charges a card.",
+      "**Don't** hardcode a store brand, currency or sample catalog into the application.",
+      "**Don't** turn this cashier implementation into an invented design specification for later modules."
+    ]
+  }
+}

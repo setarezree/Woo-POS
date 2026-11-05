@@ -1,0 +1,689 @@
+msgid ""
+msgstr "Project-Id-Version: Universal WooCommerce POS 0.4.0\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nLanguage: fa_IR\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "/ to search · Enter to scan SKU"
+msgstr "کلید / برای جست‌وجو · Enter برای اسکن SKU"
+
+msgid "/ to search · Enter to scan a code"
+msgstr "کلید / برای جست‌وجو · Enter برای اسکن کد"
+
+msgid "A first name, last name and valid phone number are required."
+msgstr "نام، نام خانوادگی و شماره تلفن معتبر لازم است."
+
+msgid "A new in-person sale"
+msgstr "فروش حضوری جدید"
+
+msgid "A reason is required for manual discounts."
+msgstr "برای تخفیف دستی، ثبت دلیل لازم است."
+
+msgid "A receipt is available only after payment has been recorded."
+msgstr "فاکتور فقط پس از ثبت پرداخت در دسترس است."
+
+msgid "A received payment requires a refund; it cannot be cancelled here."
+msgstr "وجه دریافت‌شده به بازپرداخت نیاز دارد و از این مسیر قابل لغو نیست."
+
+msgid "A selected product is unavailable or requires a specific purchasable variation."
+msgstr "یکی از محصولات قابل فروش نیست یا باید تنوع مشخص و قابل خرید آن انتخاب شود."
+
+msgid "A tracking reference is required for non-cash payments."
+msgstr "برای پرداخت غیرنقدی، شمارهٔ پیگیری لازم است."
+
+msgid "Abandon unresolved preparation"
+msgstr "لغو تلاشِ نامشخصِ آماده‌سازی"
+
+msgid "Activate Universal POS separately on each site. Network activation is not supported."
+msgstr "افزونه را روی هر سایت جداگانه فعال کنید. فعال‌سازی شبکه‌ای پشتیبانی نمی‌شود."
+
+msgid "Activate WooCommerce 9.0 or later before activating Universal POS."
+msgstr "قبل از فعال‌سازی افزونه، ووکامرس نسخهٔ ۹ یا بالاتر را فعال کنید."
+
+msgid "Add payment method"
+msgstr "افزودن روش پرداخت"
+
+msgid "Add {name} to basket"
+msgstr "افزودن {name} به سبد"
+
+msgid "Address"
+msgstr "آدرس"
+
+msgid "All products"
+msgstr "همهٔ کالاها"
+
+msgid "Amount"
+msgstr "مبلغ"
+
+msgid "Amount due"
+msgstr "مبلغ قابل پرداخت"
+
+msgid "Apply"
+msgstr "اعمال"
+
+msgid "Back to point of sale"
+msgstr "بازگشت به صندوق"
+
+msgid "Bank transfer (manually confirmed)"
+msgstr "انتقال بانکی (تأیید دستی دریافت)"
+
+msgid "Barcode metadata key"
+msgstr "کلید متادیتای بارکد"
+
+msgid "Barcode settings"
+msgstr "تنظیمات بارکد"
+
+msgid "Basket"
+msgstr "سبد خرید"
+
+msgid "Basket label (optional)"
+msgstr "نام سبد (اختیاری)"
+
+msgid "Basket saved on the server. No stock has been reserved."
+msgstr "سبد روی سرور ذخیره شد. موجودی رزرو نشده است."
+
+msgid "Cancel unpaid sale"
+msgstr "لغو فروش پرداخت‌نشده"
+
+msgid "Cancelled"
+msgstr "لغوشده"
+
+msgid "Card terminal (manually confirmed)"
+msgstr "کارت‌خوان (تأیید دستی دریافت)"
+
+msgid "Cash"
+msgstr "نقدی"
+
+msgid "Cashier"
+msgstr "صندوق‌دار"
+
+msgid "Check sale status"
+msgstr "بررسی وضعیت فروش"
+
+msgid "Check the result before continuing"
+msgstr "پیش از ادامه، نتیجه را بررسی کنید"
+
+msgid "Choose a custom metadata key, not an internal WordPress or WooCommerce field."
+msgstr "کلید متادیتای اختصاصی انتخاب کنید؛ فیلدهای داخلی وردپرس و ووکامرس مجاز نیستند."
+
+msgid "Choose a product or scan its SKU."
+msgstr "یک کالا انتخاب کنید یا SKU آن را اسکن کنید."
+
+msgid "Choose a variation with all options explicitly defined. Wildcard variations are not supported yet."
+msgstr "تنوعی را انتخاب کنید که تمام گزینه‌های آن مشخص باشد. تنوع‌های دارای گزینهٔ آزاد هنوز پشتیبانی نمی‌شوند."
+
+msgid "Choose options for {name}"
+msgstr "انتخاب تنوع برای {name}"
+
+msgid "City"
+msgstr "شهر"
+
+msgid "Clear"
+msgstr "پاک کردن"
+
+msgid "Closed"
+msgstr "بسته‌شده"
+
+msgid "Completed"
+msgstr "تکمیل‌شده"
+
+msgid "Confirm payment and complete sale"
+msgstr "تأیید دریافت و ثبت نهایی فروش"
+
+msgid "Connected to store"
+msgstr "متصل به فروشگاه"
+
+msgid "Connecting to store…"
+msgstr "در حال اتصال به فروشگاه…"
+
+msgid "Connection needs checking"
+msgstr "اتصال نیاز به بررسی دارد"
+
+msgid "Connection restored. Refresh stock or check the sale status before continuing."
+msgstr "اتصال برقرار شد. پیش از ادامه، موجودی یا وضعیت فروش را دوباره بررسی کنید."
+
+msgid "Country"
+msgstr "کشور"
+
+msgid "Coupon code"
+msgstr "کد کوپن"
+
+msgid "Current sale"
+msgstr "فروش جاری"
+
+msgid "Customer"
+msgstr "مشتری"
+
+msgid "Decrease quantity of {name}"
+msgstr "کاهش تعداد {name}"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Deleted user"
+msgstr "کاربر حذف‌شده"
+
+msgid "Discard unresolved basket save"
+msgstr "لغو ذخیرهٔ نامشخص سبد"
+
+msgid "Discount"
+msgstr "تخفیف"
+
+msgid "Discount type"
+msgstr "نوع تخفیف"
+
+msgid "Discount value"
+msgstr "مقدار تخفیف"
+
+msgid "Discounts and tax are calculated by WooCommerce when you review the sale."
+msgstr "تخفیف و مالیات هنگام بررسی فروش با محاسبات ووکامرس اعمال می‌شوند."
+
+msgid "Do not collect funds again. Check the recorded sale or retry the same request."
+msgstr "وجه را دوباره دریافت نکنید. فروش ثبت‌شده را بررسی یا همان درخواست را تکرار کنید."
+
+msgid "Email"
+msgstr "ایمیل"
+
+msgid "Email and address (optional)"
+msgstr "ایمیل و آدرس (اختیاری)"
+
+msgid "Enter a coupon code before continuing."
+msgstr "پیش از ادامه، کد کوپن را وارد کنید."
+
+msgid "Enter a valid decimal amount without separators."
+msgstr "مبلغ را به‌صورت اعشاری معتبر و بدون جداکننده وارد کنید."
+
+msgid "Enter a valid email address or leave it empty."
+msgstr "ایمیل معتبر وارد کنید یا این فیلد را خالی بگذارید."
+
+msgid "Enter a valid phone number containing 7 to 15 digits."
+msgstr "شماره تلفن معتبر با ۷ تا ۱۵ رقم وارد کنید."
+
+msgid "Estimated product total"
+msgstr "جمع تقریبی کالاها"
+
+msgid "Every payment amount must be greater than zero."
+msgstr "مبلغ هر ردیف پرداخت باید بیشتر از صفر باشد."
+
+msgid "Existing data at the previous key is retained. Changing this setting does not migrate product metadata."
+msgstr "داده‌های کلید قبلی حفظ می‌شوند. تغییر این تنظیم، متادیتای محصولات را جابه‌جا نمی‌کند."
+
+msgid "Explicitly confirm that the listed funds have actually been received."
+msgstr "دریافت واقعی وجه‌های فهرست‌شده را صریحاً تأیید کنید."
+
+msgid "Finish or clear the current basket before opening another sale."
+msgstr "پیش از باز کردن فروش دیگر، سبد فعلی را تکمیل یا پاک کنید."
+
+msgid "First name"
+msgstr "نام"
+
+msgid "From {price}"
+msgstr "از {price}"
+
+msgid "Guest customer"
+msgstr "مشتری مهمان"
+
+msgid "I confirm that the full amount has actually been received."
+msgstr "تأیید می‌کنم کل مبلغ واقعاً دریافت شده است."
+
+msgid "In stock"
+msgstr "موجود"
+
+msgid "Increase quantity of {name}"
+msgstr "افزایش تعداد {name}"
+
+msgid "Internal discount reason"
+msgstr "دلیل داخلی تخفیف"
+
+msgid "Invalid barcode value."
+msgstr "مقدار بارکد معتبر نیست."
+
+msgid "JavaScript is required to use the online point of sale."
+msgstr "برای استفاده از صندوق آنلاین، JavaScript باید فعال باشد."
+
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+msgid "Loading live products…"
+msgstr "در حال دریافت کالاها از فروشگاه…"
+
+msgid "Loading…"
+msgstr "در حال بارگذاری…"
+
+msgid "Manual amount"
+msgstr "تخفیف مبلغی دستی"
+
+msgid "Manual discount"
+msgstr "تخفیف دستی"
+
+msgid "Manual percentage"
+msgstr "تخفیف درصدی دستی"
+
+msgid "Manual split payment"
+msgstr "پرداخت ترکیبی با تأیید دستی"
+
+msgid "Mobile number"
+msgstr "شماره موبایل"
+
+msgid "My recent sales"
+msgstr "فروش‌های اخیر من"
+
+msgid "My saved baskets"
+msgstr "سبدهای ذخیره‌شدهٔ من"
+
+msgid "Next"
+msgstr "بعدی"
+
+msgid "No discount"
+msgstr "بدون تخفیف"
+
+msgid "No manual payment methods are enabled. Ask the store manager to enable one."
+msgstr "هیچ روش پرداخت دستی فعال نیست. از مدیر فروشگاه بخواهید یک روش را فعال کند."
+
+msgid "No matching products. Try a different name or an exact SKU."
+msgstr "کالایی پیدا نشد. نام دیگری یا SKU دقیق کالا را امتحان کنید."
+
+msgid "No payment required"
+msgstr "بدون نیاز به پرداخت"
+
+msgid "No recorded sales yet."
+msgstr "هنوز فروشی ثبت نشده است."
+
+msgid "No sale has been recorded for this attempt. Check again or abandon the attempt before starting another."
+msgstr "برای این تلاش فروشی ثبت نشده است. پیش از شروع فروش تازه، دوباره بررسی کنید یا این تلاش را لغو کنید."
+
+msgid "No saved baskets."
+msgstr "سبد ذخیره‌شده‌ای وجود ندارد."
+
+msgid "Only record money already received. This does not charge a card or contact a bank."
+msgstr "فقط وجه دریافت‌شده را ثبت کنید. این کار از کارت برداشت نمی‌کند و به بانک متصل نمی‌شود."
+
+msgid "Open receipt / print"
+msgstr "نمایش و چاپ فاکتور"
+
+msgid "Open sale"
+msgstr "باز کردن فروش"
+
+msgid "Order #{number}"
+msgstr "سفارش شمارهٔ {number}"
+
+msgid "Order #{number} is recorded in WooCommerce. Do not collect the funds again."
+msgstr "سفارش شمارهٔ {number} در ووکامرس ثبت شده است. وجه را دوباره دریافت نکنید."
+
+msgid "Order number"
+msgstr "شماره سفارش"
+
+msgid "Overpaid: {amount}"
+msgstr "اضافه‌پرداخت: {amount}"
+
+msgid "POS Cashier"
+msgstr "صندوق‌دار فروشگاه"
+
+msgid "POS barcode"
+msgstr "بارکد صندوق"
+
+msgid "POS requires InnoDB for its WordPress and WooCommerce tables."
+msgstr "برای ثبت فروش، جدول‌های مرتبط وردپرس و ووکامرس باید از InnoDB استفاده کنند."
+
+msgid "Page {page} of {pages}"
+msgstr "صفحهٔ {page} از {pages}"
+
+msgid "Payment and shared stock were recorded successfully."
+msgstr "پرداخت و تغییر موجودی مشترک با موفقیت ثبت شدند."
+
+msgid "Payment date"
+msgstr "تاریخ پرداخت"
+
+msgid "Payment details"
+msgstr "جزئیات پرداخت"
+
+msgid "Payment is not confirmed yet. Retry the same request; do not collect funds again."
+msgstr "ثبت پرداخت هنوز تأیید نشده است. همان درخواست را تکرار کنید؛ وجه را دوباره دریافت نکنید."
+
+msgid "Payment method"
+msgstr "روش پرداخت"
+
+msgid "Payment recorded"
+msgstr "پرداخت ثبت شد"
+
+msgid "Payments match the amount due."
+msgstr "جمع پرداخت‌ها با مبلغ سفارش برابر است."
+
+msgid "Point of sale"
+msgstr "صندوق فروش"
+
+msgid "Postal code"
+msgstr "کد پستی"
+
+msgid "Preparing sale…"
+msgstr "در حال آماده‌سازی فروش…"
+
+msgid "Previous"
+msgstr "قبلی"
+
+msgid "Prices are recalculated when restored."
+msgstr "قیمت‌ها هنگام بازیابی دوباره دریافت می‌شوند."
+
+msgid "Print controls"
+msgstr "تنظیمات چاپ"
+
+msgid "Print receipt"
+msgstr "چاپ فاکتور"
+
+msgid "Processing"
+msgstr "در حال انجام"
+
+msgid "Product"
+msgstr "کالا"
+
+msgid "Products"
+msgstr "کالاها"
+
+msgid "Products could not be refreshed. Use Refresh stock to try again."
+msgstr "به‌روزرسانی کالاها انجام نشد. برای تلاش دوباره «به‌روزرسانی موجودی» را بزنید."
+
+msgid "Provide a basket and a label of up to 100 characters."
+msgstr "یک سبد و نامی با حداکثر ۱۰۰ نویسه ارسال کنید."
+
+msgid "Provide a reason and use either a coupon or a manual discount, not both."
+msgstr "دلیل تخفیف را ثبت و فقط یکی از کوپن یا تخفیف دستی را انتخاب کنید."
+
+msgid "Provide an Idempotency-Key header of 8 to 128 letters, digits or . _ : - characters."
+msgstr "هدر Idempotency-Key را با ۸ تا ۱۲۸ حرف لاتین، رقم یا نویسه‌های . _ : - ارسال کنید."
+
+msgid "Provide between 1 and 100 product lines."
+msgstr "بین ۱ تا ۱۰۰ ردیف محصول ارسال کنید."
+
+msgid "Purchased items"
+msgstr "کالاهای خریداری‌شده"
+
+msgid "Qty"
+msgstr "تعداد"
+
+msgid "Quantity of {name}"
+msgstr "تعداد {name}"
+
+msgid "Quantity: {count}"
+msgstr "تعداد: {count}"
+
+msgid "Receipt"
+msgstr "فاکتور"
+
+msgid "Receipt width"
+msgstr "عرض فاکتور"
+
+msgid "Record received funds"
+msgstr "ثبت وجه دریافت‌شده"
+
+msgid "Recording payment…"
+msgstr "در حال ثبت پرداخت…"
+
+msgid "Refresh list"
+msgstr "به‌روزرسانی فهرست"
+
+msgid "Refresh stock"
+msgstr "به‌روزرسانی موجودی"
+
+msgid "Refunded"
+msgstr "بازپرداخت‌شده"
+
+msgid "Remaining: {amount}"
+msgstr "باقیمانده: {amount}"
+
+msgid "Remove"
+msgstr "حذف"
+
+msgid "Remove payment"
+msgstr "حذف پرداخت"
+
+msgid "Remove {name}"
+msgstr "حذف {name}"
+
+msgid "Reservation expired"
+msgstr "مهلت رزرو تمام شد"
+
+msgid "Reserved: {time}"
+msgstr "زمان رزرو: {time}"
+
+msgid "Restore"
+msgstr "بازیابی"
+
+msgid "Restore an unpaid sale or reprint a receipt. Only your sales are listed."
+msgstr "فروش پرداخت‌نشده را بازیابی یا فاکتور را دوباره چاپ کنید. فقط فروش‌های خودتان نمایش داده می‌شوند."
+
+msgid "Retry the same request"
+msgstr "تکرار همان درخواست"
+
+msgid "Review sale and reserve stock"
+msgstr "بررسی فروش و رزرو موجودی"
+
+msgid "Review the recorded sale before confirming any funds."
+msgstr "پیش از تأیید دریافت وجه، فروش ثبت‌شده را بازبینی کنید."
+
+msgid "Sale totals"
+msgstr "جمع سفارش"
+
+msgid "Sales receipt"
+msgstr "فاکتور فروش"
+
+msgid "Save basket and clear counter"
+msgstr "ذخیرهٔ سبد و آزاد کردن صندوق"
+
+msgid "Save this basket for later"
+msgstr "ذخیرهٔ سبد برای ادامهٔ خرید"
+
+msgid "Saved basket"
+msgstr "سبد ذخیره‌شده"
+
+msgid "Saved basket restored with current WooCommerce prices. Review stock before checkout."
+msgstr "سبد با قیمت‌های فعلی ووکامرس بازیابی شد. پیش از ثبت فروش، موجودی را بررسی کنید."
+
+msgid "Saved online for seven days. Stock is not reserved until checkout."
+msgstr "سبد هفت روز روی سرور نگهداری می‌شود. تا آماده‌سازی فروش، موجودی رزرو نمی‌شود."
+
+msgid "Search"
+msgstr "جست‌وجو"
+
+msgid "Search name or scan SKU"
+msgstr "نام کالا را جست‌وجو یا SKU را اسکن کنید"
+
+msgid "Search name, SKU or barcode"
+msgstr "جست‌وجوی نام، SKU یا بارکد"
+
+msgid "Secure request identifiers are unavailable. Use an up-to-date browser."
+msgstr "شناسهٔ امن درخواست در دسترس نیست. از مرورگر به‌روز استفاده کنید."
+
+msgid "Send a JSON object as the request body."
+msgstr "بدنهٔ درخواست را به‌صورت یک شیء JSON ارسال کنید."
+
+msgid "Sign out"
+msgstr "خروج"
+
+msgid "Skip to products"
+msgstr "رفتن به کالاها"
+
+msgid "Some saved products were removed or unpublished and were omitted. Review the remaining basket."
+msgstr "بعضی کالاهای ذخیره‌شده حذف یا از انتشار خارج شده بودند و کنار گذاشته شدند. سبد باقی‌مانده را بررسی کنید."
+
+msgid "Start a new sale if the customer wants to continue."
+msgstr "اگر مشتری می‌خواهد خرید را ادامه دهد، فروش تازه‌ای شروع کنید."
+
+msgid "Start next sale"
+msgstr "شروع فروش بعدی"
+
+msgid "State / province"
+msgstr "استان / ایالت"
+
+msgid "Status"
+msgstr "وضعیت"
+
+msgid "Subtotal"
+msgstr "جمع کالاها"
+
+msgid "Tax"
+msgstr "مالیات"
+
+msgid "Thank you for your purchase."
+msgstr "از خرید شما سپاسگزاریم."
+
+msgid "The amount exceeds the supported limit."
+msgstr "مبلغ از سقف پشتیبانی‌شده بیشتر است."
+
+msgid "The amount has more decimal places than the store currency allows."
+msgstr "تعداد رقم‌های اعشاری مبلغ بیشتر از دقت مجاز ارز فروشگاه است."
+
+msgid "The basket save result is unknown. Check the server before changing it."
+msgstr "نتیجهٔ ذخیرهٔ سبد مشخص نیست. پیش از تغییر آن، وضعیت سرور را بررسی کنید."
+
+msgid "The connection was interrupted. Check the sale status before retrying."
+msgstr "اتصال قطع شد. پیش از تلاش دوباره، وضعیت فروش را بررسی کنید."
+
+msgid "The coupon cannot be applied. Review its expiry, usage limits and customer or product restrictions."
+msgstr "کوپن قابل اعمال نیست. تاریخ انقضا، سقف مصرف و محدودیت‌های مشتری یا کالا را بررسی کنید."
+
+msgid "The coupon has changed or expired. Cancel this unpaid sale and review a new quote."
+msgstr "کوپن تغییر کرده یا منقضی شده است. فروش پرداخت‌نشده را لغو و مبلغ تازه را بررسی کنید."
+
+msgid "The manual discount cannot exceed the product subtotal."
+msgstr "تخفیف دستی نباید از جمع کالاها بیشتر باشد."
+
+msgid "The operation could not be completed. Check the sale and retry with the same idempotency key."
+msgstr "عملیات تکمیل نشد. وضعیت فروش را بررسی و درخواست را با همان کلید یکتا تکرار کنید."
+
+msgid "The order total or currency has changed. Review the sale before confirming payment."
+msgstr "مبلغ یا ارز سفارش تغییر کرده است. پیش از تأیید پرداخت، فروش را بازبینی کنید."
+
+msgid "The request contains unsupported fields. Prices and totals are calculated by the server."
+msgstr "درخواست شامل فیلدهای پشتیبانی‌نشده است. قیمت و مبلغ نهایی در سرور محاسبه می‌شوند."
+
+msgid "The requested item was not found."
+msgstr "مورد درخواستی پیدا نشد."
+
+msgid "The requested quantity is not currently available. Refresh stock before continuing."
+msgstr "این تعداد در حال حاضر موجود نیست. پیش از ادامه موجودی را به‌روز کنید."
+
+msgid "The response timed out. Check the recorded sale before trying again."
+msgstr "مهلت دریافت پاسخ تمام شد. پیش از تلاش دوباره، فروش ثبت‌شده را بررسی کنید."
+
+msgid "The sale request has invalid fields or values."
+msgstr "فیلدها یا مقدارهای درخواست فروش معتبر نیستند."
+
+msgid "The sale was already recorded. Cancel the unpaid sale if you do not want to continue."
+msgstr "این فروش قبلاً ثبت شده است. اگر قصد ادامه ندارید، فروش پرداخت‌نشده را لغو کنید."
+
+msgid "The saved basket was not found."
+msgstr "سبد ذخیره‌شده پیدا نشد."
+
+msgid "The saved basket was recovered from the server."
+msgstr "سبد ذخیره‌شده از سرور بازیابی شد."
+
+msgid "The server response could not be read. Check the sale status before retrying."
+msgstr "پاسخ سرور قابل خواندن نبود. پیش از تکرار درخواست، وضعیت فروش را بررسی کنید."
+
+msgid "The stock reservation has expired. Cancel this sale and prepare a new one."
+msgstr "مهلت رزرو موجودی تمام شده است. این فروش را لغو و فروش جدیدی آماده کنید."
+
+msgid "The store API must use the same origin as this page."
+msgstr "نشانی API فروشگاه باید هم‌دامنه با همین صفحه باشد."
+
+msgid "The sum of payments must exactly match the server-calculated order total."
+msgstr "جمع پرداخت‌ها باید دقیقاً با مبلغ محاسبه‌شدهٔ سفارش در سرور برابر باشد."
+
+msgid "The unpaid sale was cancelled and its stock reservation released."
+msgstr "فروش پرداخت‌نشده لغو و رزرو موجودی آن آزاد شد."
+
+msgid "There is not enough unreserved stock to complete this sale."
+msgstr "موجودی رزرو‌نشدهٔ کافی برای تکمیل این فروش وجود ندارد."
+
+msgid "This basket has expired, was deleted, or has already been used. Refresh the saved basket list."
+msgstr "این سبد منقضی، حذف یا قبلاً استفاده شده است. فهرست سبدها را به‌روز کنید."
+
+msgid "This code already belongs to another barcode or SKU."
+msgstr "این کد قبلاً به بارکد یا SKU کالای دیگری اختصاص یافته است."
+
+msgid "This code matches multiple products. Ask a manager to correct the barcode or SKU."
+msgstr "این کد به چند کالا اشاره می‌کند. از مدیر بخواهید بارکد یا SKU را اصلاح کند."
+
+msgid "This coupon requires a customer account or billing email for its per-customer limit."
+msgstr "این کوپن برای کنترل سقف مصرف هر مشتری، به حساب مشتری یا ایمیل صورتحساب نیاز دارد."
+
+msgid "This idempotency key or sale has already been used for a different operation."
+msgstr "این کلید یکتا یا فروش قبلاً برای عملیات دیگری استفاده شده است."
+
+msgid "This is a record of manually confirmed funds, not a bank transaction slip."
+msgstr "این فاکتور، وجه تأییدشده توسط صندوق‌دار را ثبت می‌کند و رسید بانکی نیست."
+
+msgid "This is an estimate. The server calculates the final price and tax when you prepare the sale."
+msgstr "این مبلغ تقریبی است. قیمت نهایی و مالیات هنگام آماده‌سازی فروش در سرور محاسبه می‌شوند."
+
+msgid "This manual payment method is not enabled."
+msgstr "این روش پرداخت دستی فعال نیست."
+
+msgid "This sale is being processed. Retry with the same idempotency key."
+msgstr "این فروش در حال پردازش است. درخواست را با همان کلید یکتا تکرار کنید."
+
+msgid "This sale is closed"
+msgstr "این فروش بسته شده است"
+
+msgid "Total"
+msgstr "جمع"
+
+msgid "Total received"
+msgstr "جمع مبلغ دریافت‌شده"
+
+msgid "Tracking reference"
+msgstr "شماره پیگیری"
+
+msgid "Unavailable"
+msgstr "ناموجود"
+
+msgid "Unique code used by the POS scanner; leading zeros are preserved."
+msgstr "کد یکتای اسکن صندوق؛ صفرهای ابتدای کد حفظ می‌شوند."
+
+msgid "Unit price"
+msgstr "قیمت واحد"
+
+msgid "Universal POS could not upgrade its database. Check the database permissions and reactivate the plugin."
+msgstr "ارتقای دیتابیس افزونه انجام نشد. دسترسی‌های دیتابیس را بررسی و افزونه را دوباره فعال کنید."
+
+msgid "Universal POS requires WooCommerce 9.0 or later to be active."
+msgstr "برای اجرای افزونه، ووکامرس نسخهٔ ۹ یا بالاتر باید فعال باشد."
+
+msgid "Unpaid"
+msgstr "پرداخت‌نشده"
+
+msgid "Use a barcode of up to 64 ASCII letters, digits or . _ : + / - characters."
+msgstr "بارکد باید حداکثر ۶۴ حرف لاتین، رقم یا نویسه‌های . _ : + / - باشد."
+
+msgid "Use unique product IDs and integer quantities from 1 to 1000."
+msgstr "شناسه‌های محصول باید بدون تکرار و تعداد هر محصول عدد صحیح از ۱ تا ۱۰۰۰ باشد."
+
+msgid "WooCommerce coupon"
+msgstr "کوپن ووکامرس"
+
+msgid "Workspace"
+msgstr "محیط کار"
+
+msgid "You are not allowed to apply a manual discount."
+msgstr "شما اجازهٔ اعمال تخفیف دستی ندارید."
+
+msgid "You are offline. Reconnect before continuing; no sale is queued."
+msgstr "اتصال اینترنت قطع است. برای ادامه دوباره متصل شوید؛ هیچ فروشی برای ارسال بعدی ذخیره نمی‌شود."
+
+msgid "You cannot assign this customer to a sale."
+msgstr "شما اجازهٔ تخصیص این مشتری به فروش را ندارید."
+
+msgid "You do not have access to this operation."
+msgstr "شما اجازهٔ انجام این عملیات را ندارید."
+
+msgid "Your next sale starts here."
+msgstr "فروش بعدی از اینجا شروع می‌شود."
+
+msgid "Your session has expired. Sign in again, then check the sale before retrying."
+msgstr "نشست شما منقضی شده است. دوباره وارد شوید و پیش از تلاش مجدد، وضعیت فروش را بررسی کنید."
+
+msgid "{count} in stock"
+msgstr "موجودی: {count}"
+
+msgid "{count} products shown"
+msgstr "نمایش {count} کالا"
+
+msgid "{name} added to basket"
+msgstr "{name} به سبد افزوده شد"

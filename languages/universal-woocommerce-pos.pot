@@ -1,0 +1,689 @@
+msgid ""
+msgstr "Project-Id-Version: Universal WooCommerce POS 0.4.0\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "/ to search · Enter to scan SKU"
+msgstr ""
+
+msgid "/ to search · Enter to scan a code"
+msgstr ""
+
+msgid "A first name, last name and valid phone number are required."
+msgstr ""
+
+msgid "A new in-person sale"
+msgstr ""
+
+msgid "A reason is required for manual discounts."
+msgstr ""
+
+msgid "A receipt is available only after payment has been recorded."
+msgstr ""
+
+msgid "A received payment requires a refund; it cannot be cancelled here."
+msgstr ""
+
+msgid "A selected product is unavailable or requires a specific purchasable variation."
+msgstr ""
+
+msgid "A tracking reference is required for non-cash payments."
+msgstr ""
+
+msgid "Abandon unresolved preparation"
+msgstr ""
+
+msgid "Activate Universal POS separately on each site. Network activation is not supported."
+msgstr ""
+
+msgid "Activate WooCommerce 9.0 or later before activating Universal POS."
+msgstr ""
+
+msgid "Add payment method"
+msgstr ""
+
+msgid "Add {name} to basket"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "All products"
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "Amount due"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Back to point of sale"
+msgstr ""
+
+msgid "Bank transfer (manually confirmed)"
+msgstr ""
+
+msgid "Barcode metadata key"
+msgstr ""
+
+msgid "Barcode settings"
+msgstr ""
+
+msgid "Basket"
+msgstr ""
+
+msgid "Basket label (optional)"
+msgstr ""
+
+msgid "Basket saved on the server. No stock has been reserved."
+msgstr ""
+
+msgid "Cancel unpaid sale"
+msgstr ""
+
+msgid "Cancelled"
+msgstr ""
+
+msgid "Card terminal (manually confirmed)"
+msgstr ""
+
+msgid "Cash"
+msgstr ""
+
+msgid "Cashier"
+msgstr ""
+
+msgid "Check sale status"
+msgstr ""
+
+msgid "Check the result before continuing"
+msgstr ""
+
+msgid "Choose a custom metadata key, not an internal WordPress or WooCommerce field."
+msgstr ""
+
+msgid "Choose a product or scan its SKU."
+msgstr ""
+
+msgid "Choose a variation with all options explicitly defined. Wildcard variations are not supported yet."
+msgstr ""
+
+msgid "Choose options for {name}"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Closed"
+msgstr ""
+
+msgid "Completed"
+msgstr ""
+
+msgid "Confirm payment and complete sale"
+msgstr ""
+
+msgid "Connected to store"
+msgstr ""
+
+msgid "Connecting to store…"
+msgstr ""
+
+msgid "Connection needs checking"
+msgstr ""
+
+msgid "Connection restored. Refresh stock or check the sale status before continuing."
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Coupon code"
+msgstr ""
+
+msgid "Current sale"
+msgstr ""
+
+msgid "Customer"
+msgstr ""
+
+msgid "Decrease quantity of {name}"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Deleted user"
+msgstr ""
+
+msgid "Discard unresolved basket save"
+msgstr ""
+
+msgid "Discount"
+msgstr ""
+
+msgid "Discount type"
+msgstr ""
+
+msgid "Discount value"
+msgstr ""
+
+msgid "Discounts and tax are calculated by WooCommerce when you review the sale."
+msgstr ""
+
+msgid "Do not collect funds again. Check the recorded sale or retry the same request."
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Email and address (optional)"
+msgstr ""
+
+msgid "Enter a coupon code before continuing."
+msgstr ""
+
+msgid "Enter a valid decimal amount without separators."
+msgstr ""
+
+msgid "Enter a valid email address or leave it empty."
+msgstr ""
+
+msgid "Enter a valid phone number containing 7 to 15 digits."
+msgstr ""
+
+msgid "Estimated product total"
+msgstr ""
+
+msgid "Every payment amount must be greater than zero."
+msgstr ""
+
+msgid "Existing data at the previous key is retained. Changing this setting does not migrate product metadata."
+msgstr ""
+
+msgid "Explicitly confirm that the listed funds have actually been received."
+msgstr ""
+
+msgid "Finish or clear the current basket before opening another sale."
+msgstr ""
+
+msgid "First name"
+msgstr ""
+
+msgid "From {price}"
+msgstr ""
+
+msgid "Guest customer"
+msgstr ""
+
+msgid "I confirm that the full amount has actually been received."
+msgstr ""
+
+msgid "In stock"
+msgstr ""
+
+msgid "Increase quantity of {name}"
+msgstr ""
+
+msgid "Internal discount reason"
+msgstr ""
+
+msgid "Invalid barcode value."
+msgstr ""
+
+msgid "JavaScript is required to use the online point of sale."
+msgstr ""
+
+msgid "Last name"
+msgstr ""
+
+msgid "Loading live products…"
+msgstr ""
+
+msgid "Loading…"
+msgstr ""
+
+msgid "Manual amount"
+msgstr ""
+
+msgid "Manual discount"
+msgstr ""
+
+msgid "Manual percentage"
+msgstr ""
+
+msgid "Manual split payment"
+msgstr ""
+
+msgid "Mobile number"
+msgstr ""
+
+msgid "My recent sales"
+msgstr ""
+
+msgid "My saved baskets"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "No discount"
+msgstr ""
+
+msgid "No manual payment methods are enabled. Ask the store manager to enable one."
+msgstr ""
+
+msgid "No matching products. Try a different name or an exact SKU."
+msgstr ""
+
+msgid "No payment required"
+msgstr ""
+
+msgid "No recorded sales yet."
+msgstr ""
+
+msgid "No sale has been recorded for this attempt. Check again or abandon the attempt before starting another."
+msgstr ""
+
+msgid "No saved baskets."
+msgstr ""
+
+msgid "Only record money already received. This does not charge a card or contact a bank."
+msgstr ""
+
+msgid "Open receipt / print"
+msgstr ""
+
+msgid "Open sale"
+msgstr ""
+
+msgid "Order #{number}"
+msgstr ""
+
+msgid "Order #{number} is recorded in WooCommerce. Do not collect the funds again."
+msgstr ""
+
+msgid "Order number"
+msgstr ""
+
+msgid "Overpaid: {amount}"
+msgstr ""
+
+msgid "POS Cashier"
+msgstr ""
+
+msgid "POS barcode"
+msgstr ""
+
+msgid "POS requires InnoDB for its WordPress and WooCommerce tables."
+msgstr ""
+
+msgid "Page {page} of {pages}"
+msgstr ""
+
+msgid "Payment and shared stock were recorded successfully."
+msgstr ""
+
+msgid "Payment date"
+msgstr ""
+
+msgid "Payment details"
+msgstr ""
+
+msgid "Payment is not confirmed yet. Retry the same request; do not collect funds again."
+msgstr ""
+
+msgid "Payment method"
+msgstr ""
+
+msgid "Payment recorded"
+msgstr ""
+
+msgid "Payments match the amount due."
+msgstr ""
+
+msgid "Point of sale"
+msgstr ""
+
+msgid "Postal code"
+msgstr ""
+
+msgid "Preparing sale…"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Prices are recalculated when restored."
+msgstr ""
+
+msgid "Print controls"
+msgstr ""
+
+msgid "Print receipt"
+msgstr ""
+
+msgid "Processing"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Products"
+msgstr ""
+
+msgid "Products could not be refreshed. Use Refresh stock to try again."
+msgstr ""
+
+msgid "Provide a basket and a label of up to 100 characters."
+msgstr ""
+
+msgid "Provide a reason and use either a coupon or a manual discount, not both."
+msgstr ""
+
+msgid "Provide an Idempotency-Key header of 8 to 128 letters, digits or . _ : - characters."
+msgstr ""
+
+msgid "Provide between 1 and 100 product lines."
+msgstr ""
+
+msgid "Purchased items"
+msgstr ""
+
+msgid "Qty"
+msgstr ""
+
+msgid "Quantity of {name}"
+msgstr ""
+
+msgid "Quantity: {count}"
+msgstr ""
+
+msgid "Receipt"
+msgstr ""
+
+msgid "Receipt width"
+msgstr ""
+
+msgid "Record received funds"
+msgstr ""
+
+msgid "Recording payment…"
+msgstr ""
+
+msgid "Refresh list"
+msgstr ""
+
+msgid "Refresh stock"
+msgstr ""
+
+msgid "Refunded"
+msgstr ""
+
+msgid "Remaining: {amount}"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Remove payment"
+msgstr ""
+
+msgid "Remove {name}"
+msgstr ""
+
+msgid "Reservation expired"
+msgstr ""
+
+msgid "Reserved: {time}"
+msgstr ""
+
+msgid "Restore"
+msgstr ""
+
+msgid "Restore an unpaid sale or reprint a receipt. Only your sales are listed."
+msgstr ""
+
+msgid "Retry the same request"
+msgstr ""
+
+msgid "Review sale and reserve stock"
+msgstr ""
+
+msgid "Review the recorded sale before confirming any funds."
+msgstr ""
+
+msgid "Sale totals"
+msgstr ""
+
+msgid "Sales receipt"
+msgstr ""
+
+msgid "Save basket and clear counter"
+msgstr ""
+
+msgid "Save this basket for later"
+msgstr ""
+
+msgid "Saved basket"
+msgstr ""
+
+msgid "Saved basket restored with current WooCommerce prices. Review stock before checkout."
+msgstr ""
+
+msgid "Saved online for seven days. Stock is not reserved until checkout."
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search name or scan SKU"
+msgstr ""
+
+msgid "Search name, SKU or barcode"
+msgstr ""
+
+msgid "Secure request identifiers are unavailable. Use an up-to-date browser."
+msgstr ""
+
+msgid "Send a JSON object as the request body."
+msgstr ""
+
+msgid "Sign out"
+msgstr ""
+
+msgid "Skip to products"
+msgstr ""
+
+msgid "Some saved products were removed or unpublished and were omitted. Review the remaining basket."
+msgstr ""
+
+msgid "Start a new sale if the customer wants to continue."
+msgstr ""
+
+msgid "Start next sale"
+msgstr ""
+
+msgid "State / province"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Subtotal"
+msgstr ""
+
+msgid "Tax"
+msgstr ""
+
+msgid "Thank you for your purchase."
+msgstr ""
+
+msgid "The amount exceeds the supported limit."
+msgstr ""
+
+msgid "The amount has more decimal places than the store currency allows."
+msgstr ""
+
+msgid "The basket save result is unknown. Check the server before changing it."
+msgstr ""
+
+msgid "The connection was interrupted. Check the sale status before retrying."
+msgstr ""
+
+msgid "The coupon cannot be applied. Review its expiry, usage limits and customer or product restrictions."
+msgstr ""
+
+msgid "The coupon has changed or expired. Cancel this unpaid sale and review a new quote."
+msgstr ""
+
+msgid "The manual discount cannot exceed the product subtotal."
+msgstr ""
+
+msgid "The operation could not be completed. Check the sale and retry with the same idempotency key."
+msgstr ""
+
+msgid "The order total or currency has changed. Review the sale before confirming payment."
+msgstr ""
+
+msgid "The request contains unsupported fields. Prices and totals are calculated by the server."
+msgstr ""
+
+msgid "The requested item was not found."
+msgstr ""
+
+msgid "The requested quantity is not currently available. Refresh stock before continuing."
+msgstr ""
+
+msgid "The response timed out. Check the recorded sale before trying again."
+msgstr ""
+
+msgid "The sale request has invalid fields or values."
+msgstr ""
+
+msgid "The sale was already recorded. Cancel the unpaid sale if you do not want to continue."
+msgstr ""
+
+msgid "The saved basket was not found."
+msgstr ""
+
+msgid "The saved basket was recovered from the server."
+msgstr ""
+
+msgid "The server response could not be read. Check the sale status before retrying."
+msgstr ""
+
+msgid "The stock reservation has expired. Cancel this sale and prepare a new one."
+msgstr ""
+
+msgid "The store API must use the same origin as this page."
+msgstr ""
+
+msgid "The sum of payments must exactly match the server-calculated order total."
+msgstr ""
+
+msgid "The unpaid sale was cancelled and its stock reservation released."
+msgstr ""
+
+msgid "There is not enough unreserved stock to complete this sale."
+msgstr ""
+
+msgid "This basket has expired, was deleted, or has already been used. Refresh the saved basket list."
+msgstr ""
+
+msgid "This code already belongs to another barcode or SKU."
+msgstr ""
+
+msgid "This code matches multiple products. Ask a manager to correct the barcode or SKU."
+msgstr ""
+
+msgid "This coupon requires a customer account or billing email for its per-customer limit."
+msgstr ""
+
+msgid "This idempotency key or sale has already been used for a different operation."
+msgstr ""
+
+msgid "This is a record of manually confirmed funds, not a bank transaction slip."
+msgstr ""
+
+msgid "This is an estimate. The server calculates the final price and tax when you prepare the sale."
+msgstr ""
+
+msgid "This manual payment method is not enabled."
+msgstr ""
+
+msgid "This sale is being processed. Retry with the same idempotency key."
+msgstr ""
+
+msgid "This sale is closed"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Total received"
+msgstr ""
+
+msgid "Tracking reference"
+msgstr ""
+
+msgid "Unavailable"
+msgstr ""
+
+msgid "Unique code used by the POS scanner; leading zeros are preserved."
+msgstr ""
+
+msgid "Unit price"
+msgstr ""
+
+msgid "Universal POS could not upgrade its database. Check the database permissions and reactivate the plugin."
+msgstr ""
+
+msgid "Universal POS requires WooCommerce 9.0 or later to be active."
+msgstr ""
+
+msgid "Unpaid"
+msgstr ""
+
+msgid "Use a barcode of up to 64 ASCII letters, digits or . _ : + / - characters."
+msgstr ""
+
+msgid "Use unique product IDs and integer quantities from 1 to 1000."
+msgstr ""
+
+msgid "WooCommerce coupon"
+msgstr ""
+
+msgid "Workspace"
+msgstr ""
+
+msgid "You are not allowed to apply a manual discount."
+msgstr ""
+
+msgid "You are offline. Reconnect before continuing; no sale is queued."
+msgstr ""
+
+msgid "You cannot assign this customer to a sale."
+msgstr ""
+
+msgid "You do not have access to this operation."
+msgstr ""
+
+msgid "Your next sale starts here."
+msgstr ""
+
+msgid "Your session has expired. Sign in again, then check the sale before retrying."
+msgstr ""
+
+msgid "{count} in stock"
+msgstr ""
+
+msgid "{count} products shown"
+msgstr ""
+
+msgid "{name} added to basket"
+msgstr ""
